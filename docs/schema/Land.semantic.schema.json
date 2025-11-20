@@ -1,0 +1,2237 @@
+{
+  "definitions": {
+    "pd:Land": {
+      "anyOf": [
+        {
+          "title": "pd:Land",
+          "type": "object",
+          "required": [
+            "usage",
+            "landAddress_MP01",
+            "landArea_MTK"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "idGroup": {
+              "$ref": "#/definitions/pd:IdInformationModel"
+            },
+            "usage": {
+              "anyOf": [
+                {
+                  "$ref": "#/definitions/pd:CodeInformationModel"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/pd:CodeInformationModel"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "name": {
+              "type": "string",
+              "format": "name"
+            },
+            "nameKana": {
+              "type": "string",
+              "format": "nameKana"
+            },
+            "nameEn": {
+              "type": "string",
+              "format": "nameEn"
+            },
+            "alternateName": {
+              "type": "string",
+              "format": "alternateName"
+            },
+            "description": {
+              "type": "string",
+              "format": "description"
+            },
+            "landAddress_MP01": {
+              "$ref": "#/definitions/pd:Address_MP01"
+            },
+            "landArea_MTK": {
+              "type": "number",
+              "format": "landArea_MTK"
+            },
+            "landFormImageUrl": {
+              "type": "string",
+              "format": "landFormImageUrl"
+            },
+            "landForm": {
+              "type": "string",
+              "format": "landForm"
+            },
+            "remark": {
+              "type": "string",
+              "format": "remark"
+            },
+            "contactPointInformation": {
+              "$ref": "#/definitions/pd:ContactPoint"
+            }
+          }
+        },
+        {
+          "title": "pd:Land",
+          "type": "object",
+          "required": [
+            "usage",
+            "landAddress_MP02",
+            "landArea_MTK"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "idGroup": {
+              "$ref": "#/definitions/pd:IdInformationModel"
+            },
+            "usage": {
+              "anyOf": [
+                {
+                  "$ref": "#/definitions/pd:CodeInformationModel"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/pd:CodeInformationModel"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "name": {
+              "type": "string",
+              "format": "name"
+            },
+            "nameKana": {
+              "type": "string",
+              "format": "nameKana"
+            },
+            "nameEn": {
+              "type": "string",
+              "format": "nameEn"
+            },
+            "alternateName": {
+              "type": "string",
+              "format": "alternateName"
+            },
+            "description": {
+              "type": "string",
+              "format": "description"
+            },
+            "landAddress_MP02": {
+              "$ref": "#/definitions/pd:Address_MP02"
+            },
+            "landArea_MTK": {
+              "type": "number",
+              "format": "landArea_MTK"
+            },
+            "landFormImageUrl": {
+              "type": "string",
+              "format": "landFormImageUrl"
+            },
+            "landForm": {
+              "type": "string",
+              "format": "landForm"
+            },
+            "remark": {
+              "type": "string",
+              "format": "remark"
+            },
+            "contactPointInformation": {
+              "$ref": "#/definitions/pd:ContactPoint"
+            }
+          }
+        },
+        {
+          "title": "pd:Land",
+          "type": "object",
+          "required": [
+            "usage",
+            "landAddress_MP03",
+            "landArea_MTK"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "idGroup": {
+              "$ref": "#/definitions/pd:IdInformationModel"
+            },
+            "usage": {
+              "anyOf": [
+                {
+                  "$ref": "#/definitions/pd:CodeInformationModel"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/pd:CodeInformationModel"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "name": {
+              "type": "string",
+              "format": "name"
+            },
+            "nameKana": {
+              "type": "string",
+              "format": "nameKana"
+            },
+            "nameEn": {
+              "type": "string",
+              "format": "nameEn"
+            },
+            "alternateName": {
+              "type": "string",
+              "format": "alternateName"
+            },
+            "description": {
+              "type": "string",
+              "format": "description"
+            },
+            "landAddress_MP03": {
+              "$ref": "#/definitions/pd:Address_MP03"
+            },
+            "landArea_MTK": {
+              "type": "number",
+              "format": "landArea_MTK"
+            },
+            "landFormImageUrl": {
+              "type": "string",
+              "format": "landFormImageUrl"
+            },
+            "landForm": {
+              "type": "string",
+              "format": "landForm"
+            },
+            "remark": {
+              "type": "string",
+              "format": "remark"
+            },
+            "contactPointInformation": {
+              "$ref": "#/definitions/pd:ContactPoint"
+            }
+          }
+        },
+        {
+          "title": "pd:Land",
+          "type": "object",
+          "required": [
+            "usage",
+            "landAddress_MP04",
+            "landArea_MTK"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "idGroup": {
+              "$ref": "#/definitions/pd:IdInformationModel"
+            },
+            "usage": {
+              "anyOf": [
+                {
+                  "$ref": "#/definitions/pd:CodeInformationModel"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/pd:CodeInformationModel"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "name": {
+              "type": "string",
+              "format": "name"
+            },
+            "nameKana": {
+              "type": "string",
+              "format": "nameKana"
+            },
+            "nameEn": {
+              "type": "string",
+              "format": "nameEn"
+            },
+            "alternateName": {
+              "type": "string",
+              "format": "alternateName"
+            },
+            "description": {
+              "type": "string",
+              "format": "description"
+            },
+            "landAddress_MP04": {
+              "$ref": "#/definitions/pd:Address_MP04"
+            },
+            "landArea_MTK": {
+              "type": "number",
+              "format": "landArea_MTK"
+            },
+            "landFormImageUrl": {
+              "type": "string",
+              "format": "landFormImageUrl"
+            },
+            "landForm": {
+              "type": "string",
+              "format": "landForm"
+            },
+            "remark": {
+              "type": "string",
+              "format": "remark"
+            },
+            "contactPointInformation": {
+              "$ref": "#/definitions/pd:ContactPoint"
+            }
+          }
+        },
+        {
+          "title": "pd:Land",
+          "type": "object",
+          "required": [
+            "usage",
+            "landAddress_MP05",
+            "landArea_MTK"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "idGroup": {
+              "$ref": "#/definitions/pd:IdInformationModel"
+            },
+            "usage": {
+              "anyOf": [
+                {
+                  "$ref": "#/definitions/pd:CodeInformationModel"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/pd:CodeInformationModel"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "name": {
+              "type": "string",
+              "format": "name"
+            },
+            "nameKana": {
+              "type": "string",
+              "format": "nameKana"
+            },
+            "nameEn": {
+              "type": "string",
+              "format": "nameEn"
+            },
+            "alternateName": {
+              "type": "string",
+              "format": "alternateName"
+            },
+            "description": {
+              "type": "string",
+              "format": "description"
+            },
+            "landAddress_MP05": {
+              "$ref": "#/definitions/pd:Address_MP05"
+            },
+            "landArea_MTK": {
+              "type": "number",
+              "format": "landArea_MTK"
+            },
+            "landFormImageUrl": {
+              "type": "string",
+              "format": "landFormImageUrl"
+            },
+            "landForm": {
+              "type": "string",
+              "format": "landForm"
+            },
+            "remark": {
+              "type": "string",
+              "format": "remark"
+            },
+            "contactPointInformation": {
+              "$ref": "#/definitions/pd:ContactPoint"
+            }
+          }
+        },
+        {
+          "title": "pd:Land",
+          "type": "object",
+          "required": [
+            "usage",
+            "landAddress_MP06",
+            "landArea_MTK"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "idGroup": {
+              "$ref": "#/definitions/pd:IdInformationModel"
+            },
+            "usage": {
+              "anyOf": [
+                {
+                  "$ref": "#/definitions/pd:CodeInformationModel"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/pd:CodeInformationModel"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "name": {
+              "type": "string",
+              "format": "name"
+            },
+            "nameKana": {
+              "type": "string",
+              "format": "nameKana"
+            },
+            "nameEn": {
+              "type": "string",
+              "format": "nameEn"
+            },
+            "alternateName": {
+              "type": "string",
+              "format": "alternateName"
+            },
+            "description": {
+              "type": "string",
+              "format": "description"
+            },
+            "landAddress_MP06": {
+              "$ref": "#/definitions/pd:Address_MP06"
+            },
+            "landArea_MTK": {
+              "type": "number",
+              "format": "landArea_MTK"
+            },
+            "landFormImageUrl": {
+              "type": "string",
+              "format": "landFormImageUrl"
+            },
+            "landForm": {
+              "type": "string",
+              "format": "landForm"
+            },
+            "remark": {
+              "type": "string",
+              "format": "remark"
+            },
+            "contactPointInformation": {
+              "$ref": "#/definitions/pd:ContactPoint"
+            }
+          }
+        },
+        {
+          "title": "pd:Land",
+          "type": "object",
+          "required": [
+            "usage",
+            "landAddress_MP07",
+            "landArea_MTK"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "idGroup": {
+              "$ref": "#/definitions/pd:IdInformationModel"
+            },
+            "usage": {
+              "anyOf": [
+                {
+                  "$ref": "#/definitions/pd:CodeInformationModel"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/pd:CodeInformationModel"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "name": {
+              "type": "string",
+              "format": "name"
+            },
+            "nameKana": {
+              "type": "string",
+              "format": "nameKana"
+            },
+            "nameEn": {
+              "type": "string",
+              "format": "nameEn"
+            },
+            "alternateName": {
+              "type": "string",
+              "format": "alternateName"
+            },
+            "description": {
+              "type": "string",
+              "format": "description"
+            },
+            "landAddress_MP07": {
+              "$ref": "#/definitions/pd:Address_MP07"
+            },
+            "landArea_MTK": {
+              "type": "number",
+              "format": "landArea_MTK"
+            },
+            "landFormImageUrl": {
+              "type": "string",
+              "format": "landFormImageUrl"
+            },
+            "landForm": {
+              "type": "string",
+              "format": "landForm"
+            },
+            "remark": {
+              "type": "string",
+              "format": "remark"
+            },
+            "contactPointInformation": {
+              "$ref": "#/definitions/pd:ContactPoint"
+            }
+          }
+        }
+      ]
+    },
+    "pd:IdInformationModel": {
+      "title": "pd:IdInformationModel",
+      "type": "object",
+      "required": [
+        "idType",
+        "id"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "idType": {
+          "type": "string",
+          "format": "idType"
+        },
+        "id": {
+          "type": "string",
+          "format": "id"
+        }
+      }
+    },
+    "pd:CodeInformationModel": {
+      "title": "pd:CodeInformationModel",
+      "type": "object",
+      "required": [
+        "codeType",
+        "code"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "codeType": {
+          "type": "string",
+          "format": "codeType"
+        },
+        "code": {
+          "type": "string",
+          "format": "code"
+        }
+      }
+    },
+    "pd:Address_MP01": {
+      "title": "pd:Address_MP01",
+      "type": "object",
+      "required": [
+        "localGovernmentCode",
+        "streetAddressId",
+        "prefecture",
+        "cityAndCounty",
+        "streetAddressAndCityBlock",
+        "buildingNameEtc",
+        "fullAddress"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "localGovernmentCode": {
+          "type": "string",
+          "format": "localGovernmentCode"
+        },
+        "streetAddressId": {
+          "type": "string",
+          "format": "streetAddressId"
+        },
+        "prefecture": {
+          "type": "string",
+          "format": "prefecture"
+        },
+        "cityAndCounty": {
+          "type": "string",
+          "format": "cityAndCounty"
+        },
+        "streetAddressAndCityBlock": {
+          "type": "string",
+          "format": "streetAddressAndCityBlock"
+        },
+        "buildingNameEtc": {
+          "type": "string",
+          "format": "buildingNameEtc"
+        },
+        "fullAddress": {
+          "type": "string",
+          "format": "fullAddress"
+        },
+        "postalCode": {
+          "type": "string",
+          "format": "postalCode"
+        },
+        "country": {
+          "type": "string",
+          "format": "country"
+        },
+        "streetAddress": {
+          "type": "string",
+          "format": "streetAddress"
+        },
+        "cityBlock": {
+          "type": "string",
+          "format": "cityBlock"
+        },
+        "prefectureKana": {
+          "type": "string",
+          "format": "prefectureKana"
+        },
+        "cityAndCountyKana": {
+          "type": "string",
+          "format": "cityAndCountyKana"
+        },
+        "streetAddressAndCityBlockKana": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockKana"
+        },
+        "buildingNameEtcKana": {
+          "type": "string",
+          "format": "buildingNameEtcKana"
+        },
+        "fullAddressKana": {
+          "type": "string",
+          "format": "fullAddressKana"
+        },
+        "prefectureEn": {
+          "type": "string",
+          "format": "prefectureEn"
+        },
+        "cityAndCountyEn": {
+          "type": "string",
+          "format": "cityAndCountyEn"
+        },
+        "streetAddressAndCityBlockEn": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockEn"
+        },
+        "buildingNameEtcEn": {
+          "type": "string",
+          "format": "buildingNameEtcEn"
+        },
+        "fullAddressEn": {
+          "type": "string",
+          "format": "fullAddressEn"
+        },
+        "latitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "latitudeOfRepresentativePoint"
+        },
+        "longitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "longitudeOfRepresentativePoint"
+        },
+        "coordinateReferenceSystem": {
+          "type": "string",
+          "format": "coordinateReferenceSystem"
+        },
+        "coordinateReferenceSystemCode": {
+          "type": "string",
+          "format": "coordinateReferenceSystemCode"
+        },
+        "county": {
+          "type": "string",
+          "format": "county"
+        },
+        "city": {
+          "type": "string",
+          "format": "city"
+        },
+        "ward": {
+          "type": "string",
+          "format": "ward"
+        },
+        "largerSectionTown": {
+          "type": "string",
+          "format": "largerSectionTown"
+        },
+        "chome": {
+          "type": "string",
+          "format": "chome"
+        },
+        "smallAdministrativeUnit": {
+          "type": "string",
+          "format": "smallAdministrativeUnit"
+        },
+        "displayedAddressFlag": {
+          "type": "number",
+          "format": "displayedAddressFlag"
+        },
+        "areaCode": {
+          "type": "string",
+          "format": "areaCode"
+        },
+        "residenceNumber": {
+          "type": "string",
+          "format": "residenceNumber"
+        },
+        "landNumber": {
+          "type": "string",
+          "format": "landNumber"
+        },
+        "buildingName": {
+          "type": "string",
+          "format": "buildingName"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "floorName"
+        },
+        "locatorName": {
+          "type": "string",
+          "format": "locatorName"
+        }
+      }
+    },
+    "pd:ContactPoint": {
+      "anyOf": [
+        {
+          "title": "pd:ContactPoint",
+          "type": "object",
+          "required": [],
+          "additionalProperties": false,
+          "properties": {
+            "contactPointName": {
+              "type": "string",
+              "format": "contactPointName"
+            },
+            "contactPointPurpose": {
+              "type": "string",
+              "format": "contactPointPurpose"
+            },
+            "contactPointPhoneNumber": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointPhoneNumber"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointPhoneNumber"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointEmailAddress": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointEmailAddress"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointEmailAddress"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointUrl": {
+              "type": "string",
+              "format": "contactPointUrl"
+            },
+            "contactPointSocialMedia": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointSocialMedia"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointSocialMedia"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointAddress_MP01": {
+              "$ref": "#/definitions/pd:Address_MP01"
+            },
+            "contactPointRemark": {
+              "type": "string",
+              "format": "contactPointRemark"
+            }
+          }
+        },
+        {
+          "title": "pd:ContactPoint",
+          "type": "object",
+          "required": [],
+          "additionalProperties": false,
+          "properties": {
+            "contactPointName": {
+              "type": "string",
+              "format": "contactPointName"
+            },
+            "contactPointPurpose": {
+              "type": "string",
+              "format": "contactPointPurpose"
+            },
+            "contactPointPhoneNumber": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointPhoneNumber"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointPhoneNumber"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointEmailAddress": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointEmailAddress"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointEmailAddress"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointUrl": {
+              "type": "string",
+              "format": "contactPointUrl"
+            },
+            "contactPointSocialMedia": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointSocialMedia"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointSocialMedia"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointAddress_MP02": {
+              "$ref": "#/definitions/pd:Address_MP02"
+            },
+            "contactPointRemark": {
+              "type": "string",
+              "format": "contactPointRemark"
+            }
+          }
+        },
+        {
+          "title": "pd:ContactPoint",
+          "type": "object",
+          "required": [],
+          "additionalProperties": false,
+          "properties": {
+            "contactPointName": {
+              "type": "string",
+              "format": "contactPointName"
+            },
+            "contactPointPurpose": {
+              "type": "string",
+              "format": "contactPointPurpose"
+            },
+            "contactPointPhoneNumber": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointPhoneNumber"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointPhoneNumber"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointEmailAddress": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointEmailAddress"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointEmailAddress"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointUrl": {
+              "type": "string",
+              "format": "contactPointUrl"
+            },
+            "contactPointSocialMedia": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointSocialMedia"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointSocialMedia"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointAddress_MP03": {
+              "$ref": "#/definitions/pd:Address_MP03"
+            },
+            "contactPointRemark": {
+              "type": "string",
+              "format": "contactPointRemark"
+            }
+          }
+        },
+        {
+          "title": "pd:ContactPoint",
+          "type": "object",
+          "required": [],
+          "additionalProperties": false,
+          "properties": {
+            "contactPointName": {
+              "type": "string",
+              "format": "contactPointName"
+            },
+            "contactPointPurpose": {
+              "type": "string",
+              "format": "contactPointPurpose"
+            },
+            "contactPointPhoneNumber": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointPhoneNumber"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointPhoneNumber"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointEmailAddress": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointEmailAddress"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointEmailAddress"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointUrl": {
+              "type": "string",
+              "format": "contactPointUrl"
+            },
+            "contactPointSocialMedia": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointSocialMedia"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointSocialMedia"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointAddress_MP04": {
+              "$ref": "#/definitions/pd:Address_MP04"
+            },
+            "contactPointRemark": {
+              "type": "string",
+              "format": "contactPointRemark"
+            }
+          }
+        },
+        {
+          "title": "pd:ContactPoint",
+          "type": "object",
+          "required": [],
+          "additionalProperties": false,
+          "properties": {
+            "contactPointName": {
+              "type": "string",
+              "format": "contactPointName"
+            },
+            "contactPointPurpose": {
+              "type": "string",
+              "format": "contactPointPurpose"
+            },
+            "contactPointPhoneNumber": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointPhoneNumber"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointPhoneNumber"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointEmailAddress": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointEmailAddress"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointEmailAddress"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointUrl": {
+              "type": "string",
+              "format": "contactPointUrl"
+            },
+            "contactPointSocialMedia": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointSocialMedia"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointSocialMedia"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointAddress_MP05": {
+              "$ref": "#/definitions/pd:Address_MP05"
+            },
+            "contactPointRemark": {
+              "type": "string",
+              "format": "contactPointRemark"
+            }
+          }
+        },
+        {
+          "title": "pd:ContactPoint",
+          "type": "object",
+          "required": [],
+          "additionalProperties": false,
+          "properties": {
+            "contactPointName": {
+              "type": "string",
+              "format": "contactPointName"
+            },
+            "contactPointPurpose": {
+              "type": "string",
+              "format": "contactPointPurpose"
+            },
+            "contactPointPhoneNumber": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointPhoneNumber"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointPhoneNumber"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointEmailAddress": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointEmailAddress"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointEmailAddress"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointUrl": {
+              "type": "string",
+              "format": "contactPointUrl"
+            },
+            "contactPointSocialMedia": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointSocialMedia"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointSocialMedia"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointAddress_MP06": {
+              "$ref": "#/definitions/pd:Address_MP06"
+            },
+            "contactPointRemark": {
+              "type": "string",
+              "format": "contactPointRemark"
+            }
+          }
+        },
+        {
+          "title": "pd:ContactPoint",
+          "type": "object",
+          "required": [],
+          "additionalProperties": false,
+          "properties": {
+            "contactPointName": {
+              "type": "string",
+              "format": "contactPointName"
+            },
+            "contactPointPurpose": {
+              "type": "string",
+              "format": "contactPointPurpose"
+            },
+            "contactPointPhoneNumber": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointPhoneNumber"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointPhoneNumber"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointEmailAddress": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointEmailAddress"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointEmailAddress"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointUrl": {
+              "type": "string",
+              "format": "contactPointUrl"
+            },
+            "contactPointSocialMedia": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "contactPointSocialMedia"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "contactPointSocialMedia"
+                  },
+                  "minItems": 1
+                }
+              ]
+            },
+            "contactPointAddress_MP07": {
+              "$ref": "#/definitions/pd:Address_MP07"
+            },
+            "contactPointRemark": {
+              "type": "string",
+              "format": "contactPointRemark"
+            }
+          }
+        }
+      ]
+    },
+    "pd:Address_MP02": {
+      "title": "pd:Address_MP02",
+      "type": "object",
+      "required": [
+        "localGovernmentCode",
+        "streetAddressId",
+        "prefecture",
+        "cityAndCounty",
+        "buildingNameEtc",
+        "fullAddress",
+        "streetAddress",
+        "cityBlock"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "localGovernmentCode": {
+          "type": "string",
+          "format": "localGovernmentCode"
+        },
+        "streetAddressId": {
+          "type": "string",
+          "format": "streetAddressId"
+        },
+        "prefecture": {
+          "type": "string",
+          "format": "prefecture"
+        },
+        "cityAndCounty": {
+          "type": "string",
+          "format": "cityAndCounty"
+        },
+        "streetAddressAndCityBlock": {
+          "type": "string",
+          "format": "streetAddressAndCityBlock"
+        },
+        "buildingNameEtc": {
+          "type": "string",
+          "format": "buildingNameEtc"
+        },
+        "fullAddress": {
+          "type": "string",
+          "format": "fullAddress"
+        },
+        "postalCode": {
+          "type": "string",
+          "format": "postalCode"
+        },
+        "country": {
+          "type": "string",
+          "format": "country"
+        },
+        "streetAddress": {
+          "type": "string",
+          "format": "streetAddress"
+        },
+        "cityBlock": {
+          "type": "string",
+          "format": "cityBlock"
+        },
+        "prefectureKana": {
+          "type": "string",
+          "format": "prefectureKana"
+        },
+        "cityAndCountyKana": {
+          "type": "string",
+          "format": "cityAndCountyKana"
+        },
+        "streetAddressAndCityBlockKana": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockKana"
+        },
+        "buildingNameEtcKana": {
+          "type": "string",
+          "format": "buildingNameEtcKana"
+        },
+        "fullAddressKana": {
+          "type": "string",
+          "format": "fullAddressKana"
+        },
+        "prefectureEn": {
+          "type": "string",
+          "format": "prefectureEn"
+        },
+        "cityAndCountyEn": {
+          "type": "string",
+          "format": "cityAndCountyEn"
+        },
+        "streetAddressAndCityBlockEn": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockEn"
+        },
+        "buildingNameEtcEn": {
+          "type": "string",
+          "format": "buildingNameEtcEn"
+        },
+        "fullAddressEn": {
+          "type": "string",
+          "format": "fullAddressEn"
+        },
+        "latitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "latitudeOfRepresentativePoint"
+        },
+        "longitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "longitudeOfRepresentativePoint"
+        },
+        "coordinateReferenceSystem": {
+          "type": "string",
+          "format": "coordinateReferenceSystem"
+        },
+        "coordinateReferenceSystemCode": {
+          "type": "string",
+          "format": "coordinateReferenceSystemCode"
+        },
+        "county": {
+          "type": "string",
+          "format": "county"
+        },
+        "city": {
+          "type": "string",
+          "format": "city"
+        },
+        "ward": {
+          "type": "string",
+          "format": "ward"
+        },
+        "largerSectionTown": {
+          "type": "string",
+          "format": "largerSectionTown"
+        },
+        "chome": {
+          "type": "string",
+          "format": "chome"
+        },
+        "smallAdministrativeUnit": {
+          "type": "string",
+          "format": "smallAdministrativeUnit"
+        },
+        "displayedAddressFlag": {
+          "type": "number",
+          "format": "displayedAddressFlag"
+        },
+        "areaCode": {
+          "type": "string",
+          "format": "areaCode"
+        },
+        "residenceNumber": {
+          "type": "string",
+          "format": "residenceNumber"
+        },
+        "landNumber": {
+          "type": "string",
+          "format": "landNumber"
+        },
+        "buildingName": {
+          "type": "string",
+          "format": "buildingName"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "floorName"
+        },
+        "locatorName": {
+          "type": "string",
+          "format": "locatorName"
+        }
+      }
+    },
+    "pd:Address_MP03": {
+      "title": "pd:Address_MP03",
+      "type": "object",
+      "required": [
+        "localGovernmentCode",
+        "streetAddressId",
+        "buildingNameEtc",
+        "fullAddress"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "localGovernmentCode": {
+          "type": "string",
+          "format": "localGovernmentCode"
+        },
+        "streetAddressId": {
+          "type": "string",
+          "format": "streetAddressId"
+        },
+        "prefecture": {
+          "type": "string",
+          "format": "prefecture"
+        },
+        "cityAndCounty": {
+          "type": "string",
+          "format": "cityAndCounty"
+        },
+        "streetAddressAndCityBlock": {
+          "type": "string",
+          "format": "streetAddressAndCityBlock"
+        },
+        "buildingNameEtc": {
+          "type": "string",
+          "format": "buildingNameEtc"
+        },
+        "fullAddress": {
+          "type": "string",
+          "format": "fullAddress"
+        },
+        "postalCode": {
+          "type": "string",
+          "format": "postalCode"
+        },
+        "country": {
+          "type": "string",
+          "format": "country"
+        },
+        "streetAddress": {
+          "type": "string",
+          "format": "streetAddress"
+        },
+        "cityBlock": {
+          "type": "string",
+          "format": "cityBlock"
+        },
+        "prefectureKana": {
+          "type": "string",
+          "format": "prefectureKana"
+        },
+        "cityAndCountyKana": {
+          "type": "string",
+          "format": "cityAndCountyKana"
+        },
+        "streetAddressAndCityBlockKana": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockKana"
+        },
+        "buildingNameEtcKana": {
+          "type": "string",
+          "format": "buildingNameEtcKana"
+        },
+        "fullAddressKana": {
+          "type": "string",
+          "format": "fullAddressKana"
+        },
+        "prefectureEn": {
+          "type": "string",
+          "format": "prefectureEn"
+        },
+        "cityAndCountyEn": {
+          "type": "string",
+          "format": "cityAndCountyEn"
+        },
+        "streetAddressAndCityBlockEn": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockEn"
+        },
+        "buildingNameEtcEn": {
+          "type": "string",
+          "format": "buildingNameEtcEn"
+        },
+        "fullAddressEn": {
+          "type": "string",
+          "format": "fullAddressEn"
+        },
+        "latitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "latitudeOfRepresentativePoint"
+        },
+        "longitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "longitudeOfRepresentativePoint"
+        },
+        "coordinateReferenceSystem": {
+          "type": "string",
+          "format": "coordinateReferenceSystem"
+        },
+        "coordinateReferenceSystemCode": {
+          "type": "string",
+          "format": "coordinateReferenceSystemCode"
+        },
+        "county": {
+          "type": "string",
+          "format": "county"
+        },
+        "city": {
+          "type": "string",
+          "format": "city"
+        },
+        "ward": {
+          "type": "string",
+          "format": "ward"
+        },
+        "largerSectionTown": {
+          "type": "string",
+          "format": "largerSectionTown"
+        },
+        "chome": {
+          "type": "string",
+          "format": "chome"
+        },
+        "smallAdministrativeUnit": {
+          "type": "string",
+          "format": "smallAdministrativeUnit"
+        },
+        "displayedAddressFlag": {
+          "type": "number",
+          "format": "displayedAddressFlag"
+        },
+        "areaCode": {
+          "type": "string",
+          "format": "areaCode"
+        },
+        "residenceNumber": {
+          "type": "string",
+          "format": "residenceNumber"
+        },
+        "landNumber": {
+          "type": "string",
+          "format": "landNumber"
+        },
+        "buildingName": {
+          "type": "string",
+          "format": "buildingName"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "floorName"
+        },
+        "locatorName": {
+          "type": "string",
+          "format": "locatorName"
+        }
+      }
+    },
+    "pd:Address_MP04": {
+      "title": "pd:Address_MP04",
+      "type": "object",
+      "required": [
+        "localGovernmentCode",
+        "prefecture",
+        "cityAndCounty",
+        "streetAddressAndCityBlock",
+        "buildingNameEtc",
+        "fullAddress"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "localGovernmentCode": {
+          "type": "string",
+          "format": "localGovernmentCode"
+        },
+        "streetAddressId": {
+          "type": "string",
+          "format": "streetAddressId"
+        },
+        "prefecture": {
+          "type": "string",
+          "format": "prefecture"
+        },
+        "cityAndCounty": {
+          "type": "string",
+          "format": "cityAndCounty"
+        },
+        "streetAddressAndCityBlock": {
+          "type": "string",
+          "format": "streetAddressAndCityBlock"
+        },
+        "buildingNameEtc": {
+          "type": "string",
+          "format": "buildingNameEtc"
+        },
+        "fullAddress": {
+          "type": "string",
+          "format": "fullAddress"
+        },
+        "postalCode": {
+          "type": "string",
+          "format": "postalCode"
+        },
+        "country": {
+          "type": "string",
+          "format": "country"
+        },
+        "streetAddress": {
+          "type": "string",
+          "format": "streetAddress"
+        },
+        "cityBlock": {
+          "type": "string",
+          "format": "cityBlock"
+        },
+        "prefectureKana": {
+          "type": "string",
+          "format": "prefectureKana"
+        },
+        "cityAndCountyKana": {
+          "type": "string",
+          "format": "cityAndCountyKana"
+        },
+        "streetAddressAndCityBlockKana": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockKana"
+        },
+        "buildingNameEtcKana": {
+          "type": "string",
+          "format": "buildingNameEtcKana"
+        },
+        "fullAddressKana": {
+          "type": "string",
+          "format": "fullAddressKana"
+        },
+        "prefectureEn": {
+          "type": "string",
+          "format": "prefectureEn"
+        },
+        "cityAndCountyEn": {
+          "type": "string",
+          "format": "cityAndCountyEn"
+        },
+        "streetAddressAndCityBlockEn": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockEn"
+        },
+        "buildingNameEtcEn": {
+          "type": "string",
+          "format": "buildingNameEtcEn"
+        },
+        "fullAddressEn": {
+          "type": "string",
+          "format": "fullAddressEn"
+        },
+        "latitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "latitudeOfRepresentativePoint"
+        },
+        "longitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "longitudeOfRepresentativePoint"
+        },
+        "coordinateReferenceSystem": {
+          "type": "string",
+          "format": "coordinateReferenceSystem"
+        },
+        "coordinateReferenceSystemCode": {
+          "type": "string",
+          "format": "coordinateReferenceSystemCode"
+        },
+        "county": {
+          "type": "string",
+          "format": "county"
+        },
+        "city": {
+          "type": "string",
+          "format": "city"
+        },
+        "ward": {
+          "type": "string",
+          "format": "ward"
+        },
+        "largerSectionTown": {
+          "type": "string",
+          "format": "largerSectionTown"
+        },
+        "chome": {
+          "type": "string",
+          "format": "chome"
+        },
+        "smallAdministrativeUnit": {
+          "type": "string",
+          "format": "smallAdministrativeUnit"
+        },
+        "displayedAddressFlag": {
+          "type": "number",
+          "format": "displayedAddressFlag"
+        },
+        "areaCode": {
+          "type": "string",
+          "format": "areaCode"
+        },
+        "residenceNumber": {
+          "type": "string",
+          "format": "residenceNumber"
+        },
+        "landNumber": {
+          "type": "string",
+          "format": "landNumber"
+        },
+        "buildingName": {
+          "type": "string",
+          "format": "buildingName"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "floorName"
+        },
+        "locatorName": {
+          "type": "string",
+          "format": "locatorName"
+        }
+      }
+    },
+    "pd:Address_MP05": {
+      "title": "pd:Address_MP05",
+      "type": "object",
+      "required": [
+        "localGovernmentCode",
+        "streetAddressAndCityBlock",
+        "buildingNameEtc",
+        "fullAddress"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "localGovernmentCode": {
+          "type": "string",
+          "format": "localGovernmentCode"
+        },
+        "streetAddressId": {
+          "type": "string",
+          "format": "streetAddressId"
+        },
+        "prefecture": {
+          "type": "string",
+          "format": "prefecture"
+        },
+        "cityAndCounty": {
+          "type": "string",
+          "format": "cityAndCounty"
+        },
+        "streetAddressAndCityBlock": {
+          "type": "string",
+          "format": "streetAddressAndCityBlock"
+        },
+        "buildingNameEtc": {
+          "type": "string",
+          "format": "buildingNameEtc"
+        },
+        "fullAddress": {
+          "type": "string",
+          "format": "fullAddress"
+        },
+        "postalCode": {
+          "type": "string",
+          "format": "postalCode"
+        },
+        "country": {
+          "type": "string",
+          "format": "country"
+        },
+        "streetAddress": {
+          "type": "string",
+          "format": "streetAddress"
+        },
+        "cityBlock": {
+          "type": "string",
+          "format": "cityBlock"
+        },
+        "prefectureKana": {
+          "type": "string",
+          "format": "prefectureKana"
+        },
+        "cityAndCountyKana": {
+          "type": "string",
+          "format": "cityAndCountyKana"
+        },
+        "streetAddressAndCityBlockKana": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockKana"
+        },
+        "buildingNameEtcKana": {
+          "type": "string",
+          "format": "buildingNameEtcKana"
+        },
+        "fullAddressKana": {
+          "type": "string",
+          "format": "fullAddressKana"
+        },
+        "prefectureEn": {
+          "type": "string",
+          "format": "prefectureEn"
+        },
+        "cityAndCountyEn": {
+          "type": "string",
+          "format": "cityAndCountyEn"
+        },
+        "streetAddressAndCityBlockEn": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockEn"
+        },
+        "buildingNameEtcEn": {
+          "type": "string",
+          "format": "buildingNameEtcEn"
+        },
+        "fullAddressEn": {
+          "type": "string",
+          "format": "fullAddressEn"
+        },
+        "latitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "latitudeOfRepresentativePoint"
+        },
+        "longitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "longitudeOfRepresentativePoint"
+        },
+        "coordinateReferenceSystem": {
+          "type": "string",
+          "format": "coordinateReferenceSystem"
+        },
+        "coordinateReferenceSystemCode": {
+          "type": "string",
+          "format": "coordinateReferenceSystemCode"
+        },
+        "county": {
+          "type": "string",
+          "format": "county"
+        },
+        "city": {
+          "type": "string",
+          "format": "city"
+        },
+        "ward": {
+          "type": "string",
+          "format": "ward"
+        },
+        "largerSectionTown": {
+          "type": "string",
+          "format": "largerSectionTown"
+        },
+        "chome": {
+          "type": "string",
+          "format": "chome"
+        },
+        "smallAdministrativeUnit": {
+          "type": "string",
+          "format": "smallAdministrativeUnit"
+        },
+        "displayedAddressFlag": {
+          "type": "number",
+          "format": "displayedAddressFlag"
+        },
+        "areaCode": {
+          "type": "string",
+          "format": "areaCode"
+        },
+        "residenceNumber": {
+          "type": "string",
+          "format": "residenceNumber"
+        },
+        "landNumber": {
+          "type": "string",
+          "format": "landNumber"
+        },
+        "buildingName": {
+          "type": "string",
+          "format": "buildingName"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "floorName"
+        },
+        "locatorName": {
+          "type": "string",
+          "format": "locatorName"
+        }
+      }
+    },
+    "pd:Address_MP06": {
+      "title": "pd:Address_MP06",
+      "type": "object",
+      "required": [
+        "prefecture",
+        "cityAndCounty",
+        "streetAddressAndCityBlock",
+        "buildingNameEtc",
+        "fullAddress"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "localGovernmentCode": {
+          "type": "string",
+          "format": "localGovernmentCode"
+        },
+        "streetAddressId": {
+          "type": "string",
+          "format": "streetAddressId"
+        },
+        "prefecture": {
+          "type": "string",
+          "format": "prefecture"
+        },
+        "cityAndCounty": {
+          "type": "string",
+          "format": "cityAndCounty"
+        },
+        "streetAddressAndCityBlock": {
+          "type": "string",
+          "format": "streetAddressAndCityBlock"
+        },
+        "buildingNameEtc": {
+          "type": "string",
+          "format": "buildingNameEtc"
+        },
+        "fullAddress": {
+          "type": "string",
+          "format": "fullAddress"
+        },
+        "postalCode": {
+          "type": "string",
+          "format": "postalCode"
+        },
+        "country": {
+          "type": "string",
+          "format": "country"
+        },
+        "streetAddress": {
+          "type": "string",
+          "format": "streetAddress"
+        },
+        "cityBlock": {
+          "type": "string",
+          "format": "cityBlock"
+        },
+        "prefectureKana": {
+          "type": "string",
+          "format": "prefectureKana"
+        },
+        "cityAndCountyKana": {
+          "type": "string",
+          "format": "cityAndCountyKana"
+        },
+        "streetAddressAndCityBlockKana": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockKana"
+        },
+        "buildingNameEtcKana": {
+          "type": "string",
+          "format": "buildingNameEtcKana"
+        },
+        "fullAddressKana": {
+          "type": "string",
+          "format": "fullAddressKana"
+        },
+        "prefectureEn": {
+          "type": "string",
+          "format": "prefectureEn"
+        },
+        "cityAndCountyEn": {
+          "type": "string",
+          "format": "cityAndCountyEn"
+        },
+        "streetAddressAndCityBlockEn": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockEn"
+        },
+        "buildingNameEtcEn": {
+          "type": "string",
+          "format": "buildingNameEtcEn"
+        },
+        "fullAddressEn": {
+          "type": "string",
+          "format": "fullAddressEn"
+        },
+        "latitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "latitudeOfRepresentativePoint"
+        },
+        "longitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "longitudeOfRepresentativePoint"
+        },
+        "coordinateReferenceSystem": {
+          "type": "string",
+          "format": "coordinateReferenceSystem"
+        },
+        "coordinateReferenceSystemCode": {
+          "type": "string",
+          "format": "coordinateReferenceSystemCode"
+        },
+        "county": {
+          "type": "string",
+          "format": "county"
+        },
+        "city": {
+          "type": "string",
+          "format": "city"
+        },
+        "ward": {
+          "type": "string",
+          "format": "ward"
+        },
+        "largerSectionTown": {
+          "type": "string",
+          "format": "largerSectionTown"
+        },
+        "chome": {
+          "type": "string",
+          "format": "chome"
+        },
+        "smallAdministrativeUnit": {
+          "type": "string",
+          "format": "smallAdministrativeUnit"
+        },
+        "displayedAddressFlag": {
+          "type": "number",
+          "format": "displayedAddressFlag"
+        },
+        "areaCode": {
+          "type": "string",
+          "format": "areaCode"
+        },
+        "residenceNumber": {
+          "type": "string",
+          "format": "residenceNumber"
+        },
+        "landNumber": {
+          "type": "string",
+          "format": "landNumber"
+        },
+        "buildingName": {
+          "type": "string",
+          "format": "buildingName"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "floorName"
+        },
+        "locatorName": {
+          "type": "string",
+          "format": "locatorName"
+        }
+      }
+    },
+    "pd:Address_MP07": {
+      "title": "pd:Address_MP07",
+      "type": "object",
+      "required": [
+        "fullAddress",
+        "postalCode",
+        "country"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "localGovernmentCode": {
+          "type": "string",
+          "format": "localGovernmentCode"
+        },
+        "streetAddressId": {
+          "type": "string",
+          "format": "streetAddressId"
+        },
+        "prefecture": {
+          "type": "string",
+          "format": "prefecture"
+        },
+        "cityAndCounty": {
+          "type": "string",
+          "format": "cityAndCounty"
+        },
+        "streetAddressAndCityBlock": {
+          "type": "string",
+          "format": "streetAddressAndCityBlock"
+        },
+        "buildingNameEtc": {
+          "type": "string",
+          "format": "buildingNameEtc"
+        },
+        "fullAddress": {
+          "type": "string",
+          "format": "fullAddress"
+        },
+        "postalCode": {
+          "type": "string",
+          "format": "postalCode"
+        },
+        "country": {
+          "type": "string",
+          "format": "country"
+        },
+        "streetAddress": {
+          "type": "string",
+          "format": "streetAddress"
+        },
+        "cityBlock": {
+          "type": "string",
+          "format": "cityBlock"
+        },
+        "prefectureKana": {
+          "type": "string",
+          "format": "prefectureKana"
+        },
+        "cityAndCountyKana": {
+          "type": "string",
+          "format": "cityAndCountyKana"
+        },
+        "streetAddressAndCityBlockKana": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockKana"
+        },
+        "buildingNameEtcKana": {
+          "type": "string",
+          "format": "buildingNameEtcKana"
+        },
+        "fullAddressKana": {
+          "type": "string",
+          "format": "fullAddressKana"
+        },
+        "prefectureEn": {
+          "type": "string",
+          "format": "prefectureEn"
+        },
+        "cityAndCountyEn": {
+          "type": "string",
+          "format": "cityAndCountyEn"
+        },
+        "streetAddressAndCityBlockEn": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockEn"
+        },
+        "buildingNameEtcEn": {
+          "type": "string",
+          "format": "buildingNameEtcEn"
+        },
+        "fullAddressEn": {
+          "type": "string",
+          "format": "fullAddressEn"
+        },
+        "latitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "latitudeOfRepresentativePoint"
+        },
+        "longitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "longitudeOfRepresentativePoint"
+        },
+        "coordinateReferenceSystem": {
+          "type": "string",
+          "format": "coordinateReferenceSystem"
+        },
+        "coordinateReferenceSystemCode": {
+          "type": "string",
+          "format": "coordinateReferenceSystemCode"
+        },
+        "county": {
+          "type": "string",
+          "format": "county"
+        },
+        "city": {
+          "type": "string",
+          "format": "city"
+        },
+        "ward": {
+          "type": "string",
+          "format": "ward"
+        },
+        "largerSectionTown": {
+          "type": "string",
+          "format": "largerSectionTown"
+        },
+        "chome": {
+          "type": "string",
+          "format": "chome"
+        },
+        "smallAdministrativeUnit": {
+          "type": "string",
+          "format": "smallAdministrativeUnit"
+        },
+        "displayedAddressFlag": {
+          "type": "number",
+          "format": "displayedAddressFlag"
+        },
+        "areaCode": {
+          "type": "string",
+          "format": "areaCode"
+        },
+        "residenceNumber": {
+          "type": "string",
+          "format": "residenceNumber"
+        },
+        "landNumber": {
+          "type": "string",
+          "format": "landNumber"
+        },
+        "buildingName": {
+          "type": "string",
+          "format": "buildingName"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "floorName"
+        },
+        "locatorName": {
+          "type": "string",
+          "format": "locatorName"
+        }
+      }
+    }
+  },
+  "$ref": "#/definitions/pd:Land"
+}

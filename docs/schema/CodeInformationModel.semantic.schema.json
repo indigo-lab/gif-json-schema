@@ -1,0 +1,24 @@
+{
+  "definitions": {
+    "pd:CodeInformationModel": {
+      "title": "pd:CodeInformationModel",
+      "type": "object",
+      "required": [
+        "codeType",
+        "code"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "codeType": {
+          "type": "string",
+          "format": "codeType"
+        },
+        "code": {
+          "type": "string",
+          "format": "code"
+        }
+      }
+    }
+  },
+  "$ref": "#/definitions/pd:CodeInformationModel"
+}

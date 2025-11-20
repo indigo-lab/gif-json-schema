@@ -1,0 +1,63 @@
+{
+  "definitions": {
+    "pd:ChildcareInformation": {
+      "title": "pd:ChildcareInformation",
+      "type": "object",
+      "required": [
+        "feeStatus"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "feeStatus": {
+          "type": "string"
+        },
+        "feeDescription": {
+          "type": "string"
+        },
+        "minAge": {
+          "type": "number"
+        },
+        "minAgeInMonths": {
+          "type": "string"
+        },
+        "maxAge": {
+          "type": "number"
+        },
+        "openingHours": {
+          "$ref": "#/definitions/ex:time"
+        },
+        "closingHours": {
+          "$ref": "#/definitions/ex:time"
+        },
+        "remark": {
+          "type": "string"
+        },
+        "feeInformation": {
+          "$ref": "#/definitions/pd:CodeInformationModel"
+        }
+      }
+    },
+    "ex:time": {
+      "type": "string",
+      "pattern": "^[0-9]{2}:[0-9]{2}$"
+    },
+    "pd:CodeInformationModel": {
+      "title": "pd:CodeInformationModel",
+      "type": "object",
+      "required": [
+        "codeType",
+        "code"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "codeType": {
+          "type": "string"
+        },
+        "code": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "$ref": "#/definitions/pd:ChildcareInformation"
+}

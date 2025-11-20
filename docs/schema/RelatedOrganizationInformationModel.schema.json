@@ -1,0 +1,43 @@
+{
+  "definitions": {
+    "pd:RelatedOrganizationInformationModel": {
+      "title": "pd:RelatedOrganizationInformationModel",
+      "type": "object",
+      "required": [
+        "role",
+        "legalEntityNumber"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "role": {
+          "$ref": "#/definitions/pd:CodeInformationModel"
+        },
+        "legalEntityNumber": {
+          "$ref": "#/definitions/ex:legalEntityNumber"
+        }
+      }
+    },
+    "pd:CodeInformationModel": {
+      "title": "pd:CodeInformationModel",
+      "type": "object",
+      "required": [
+        "codeType",
+        "code"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "codeType": {
+          "type": "string"
+        },
+        "code": {
+          "type": "string"
+        }
+      }
+    },
+    "ex:legalEntityNumber": {
+      "type": "string",
+      "pattern": "^[0-9]{13}$"
+    }
+  },
+  "$ref": "#/definitions/pd:RelatedOrganizationInformationModel"
+}

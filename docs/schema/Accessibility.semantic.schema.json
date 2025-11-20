@@ -1,0 +1,89 @@
+{
+  "definitions": {
+    "pd:Accessibility": {
+      "title": "pd:Accessibility",
+      "type": "object",
+      "required": [],
+      "additionalProperties": false,
+      "properties": {
+        "wheelchairPermissionStatus": {
+          "type": "string",
+          "format": "wheelchairPermissionStatus"
+        },
+        "wheelchairRentalStatus": {
+          "type": "string",
+          "format": "wheelchairRentalStatus"
+        },
+        "caneRentalStatus": {
+          "type": "string",
+          "format": "caneRentalStatus"
+        },
+        "multipurposeToiletStatus": {
+          "type": "string",
+          "format": "multipurposeToiletStatus"
+        },
+        "rampsOrElevatorsOrEscalatorsStatus": {
+          "type": "string",
+          "format": "rampsOrElevatorsOrEscalatorsStatus"
+        },
+        "mobilitySupportForBrailleBlocksEtcStatus": {
+          "type": "string",
+          "format": "mobilitySupportForBrailleBlocksEtcStatus"
+        },
+        "brailleAndReadingAssistanceStatus": {
+          "type": "string",
+          "format": "brailleAndReadingAssistanceStatus"
+        },
+        "accompaniedByGuideDogsAndServiceDogsStatus": {
+          "type": "string",
+          "format": "accompaniedByGuideDogsAndServiceDogsStatus"
+        },
+        "subtitlesStatus": {
+          "type": "string",
+          "format": "subtitlesStatus"
+        },
+        "writingSupportStatus": {
+          "type": "string",
+          "format": "writingSupportStatus"
+        },
+        "priorityParkingStatus": {
+          "type": "string",
+          "format": "priorityParkingStatus"
+        },
+        "toiletForOstomatesStatus": {
+          "type": "string",
+          "format": "toiletForOstomatesStatus"
+        },
+        "childToiletStatus": {
+          "type": "string",
+          "format": "childToiletStatus"
+        },
+        "nurseryStatus": {
+          "type": "string",
+          "format": "nurseryStatus"
+        },
+        "diaperChangingCornerStatus": {
+          "type": "string",
+          "format": "diaperChangingCornerStatus"
+        },
+        "foodAndDrinkPermissionStatus": {
+          "type": "string",
+          "format": "foodAndDrinkPermissionStatus"
+        },
+        "strollerRentalStatus": {
+          "type": "string",
+          "format": "strollerRentalStatus"
+        },
+        "strollerPermissionStatus": {
+          "type": "string",
+          "format": "strollerPermissionStatus"
+        },
+        "remark": {
+          "type": "string",
+          "format": "remark"
+        }
+      }
+    }
+  },
+  "$ref": "#/definitions/pd:Accessibility"
+}

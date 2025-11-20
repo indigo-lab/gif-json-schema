@@ -1,0 +1,1191 @@
+{
+  "definitions": {
+    "pd:Address_MP01": {
+      "title": "pd:Address_MP01",
+      "type": "object",
+      "required": [
+        "localGovernmentCode",
+        "streetAddressId",
+        "prefecture",
+        "cityAndCounty",
+        "streetAddressAndCityBlock",
+        "buildingNameEtc",
+        "fullAddress"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "localGovernmentCode": {
+          "type": "string",
+          "format": "localGovernmentCode"
+        },
+        "streetAddressId": {
+          "type": "string",
+          "format": "streetAddressId"
+        },
+        "prefecture": {
+          "type": "string",
+          "format": "prefecture"
+        },
+        "cityAndCounty": {
+          "type": "string",
+          "format": "cityAndCounty"
+        },
+        "streetAddressAndCityBlock": {
+          "type": "string",
+          "format": "streetAddressAndCityBlock"
+        },
+        "buildingNameEtc": {
+          "type": "string",
+          "format": "buildingNameEtc"
+        },
+        "fullAddress": {
+          "type": "string",
+          "format": "fullAddress"
+        },
+        "postalCode": {
+          "type": "string",
+          "format": "postalCode"
+        },
+        "country": {
+          "type": "string",
+          "format": "country"
+        },
+        "streetAddress": {
+          "type": "string",
+          "format": "streetAddress"
+        },
+        "cityBlock": {
+          "type": "string",
+          "format": "cityBlock"
+        },
+        "prefectureKana": {
+          "type": "string",
+          "format": "prefectureKana"
+        },
+        "cityAndCountyKana": {
+          "type": "string",
+          "format": "cityAndCountyKana"
+        },
+        "streetAddressAndCityBlockKana": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockKana"
+        },
+        "buildingNameEtcKana": {
+          "type": "string",
+          "format": "buildingNameEtcKana"
+        },
+        "fullAddressKana": {
+          "type": "string",
+          "format": "fullAddressKana"
+        },
+        "prefectureEn": {
+          "type": "string",
+          "format": "prefectureEn"
+        },
+        "cityAndCountyEn": {
+          "type": "string",
+          "format": "cityAndCountyEn"
+        },
+        "streetAddressAndCityBlockEn": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockEn"
+        },
+        "buildingNameEtcEn": {
+          "type": "string",
+          "format": "buildingNameEtcEn"
+        },
+        "fullAddressEn": {
+          "type": "string",
+          "format": "fullAddressEn"
+        },
+        "latitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "latitudeOfRepresentativePoint"
+        },
+        "longitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "longitudeOfRepresentativePoint"
+        },
+        "coordinateReferenceSystem": {
+          "type": "string",
+          "format": "coordinateReferenceSystem"
+        },
+        "coordinateReferenceSystemCode": {
+          "type": "string",
+          "format": "coordinateReferenceSystemCode"
+        },
+        "county": {
+          "type": "string",
+          "format": "county"
+        },
+        "city": {
+          "type": "string",
+          "format": "city"
+        },
+        "ward": {
+          "type": "string",
+          "format": "ward"
+        },
+        "largerSectionTown": {
+          "type": "string",
+          "format": "largerSectionTown"
+        },
+        "chome": {
+          "type": "string",
+          "format": "chome"
+        },
+        "smallAdministrativeUnit": {
+          "type": "string",
+          "format": "smallAdministrativeUnit"
+        },
+        "displayedAddressFlag": {
+          "type": "number",
+          "format": "displayedAddressFlag"
+        },
+        "areaCode": {
+          "type": "string",
+          "format": "areaCode"
+        },
+        "residenceNumber": {
+          "type": "string",
+          "format": "residenceNumber"
+        },
+        "landNumber": {
+          "type": "string",
+          "format": "landNumber"
+        },
+        "buildingName": {
+          "type": "string",
+          "format": "buildingName"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "floorName"
+        },
+        "locatorName": {
+          "type": "string",
+          "format": "locatorName"
+        }
+      }
+    },
+    "pd:Address_MP02": {
+      "title": "pd:Address_MP02",
+      "type": "object",
+      "required": [
+        "localGovernmentCode",
+        "streetAddressId",
+        "prefecture",
+        "cityAndCounty",
+        "buildingNameEtc",
+        "fullAddress",
+        "streetAddress",
+        "cityBlock"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "localGovernmentCode": {
+          "type": "string",
+          "format": "localGovernmentCode"
+        },
+        "streetAddressId": {
+          "type": "string",
+          "format": "streetAddressId"
+        },
+        "prefecture": {
+          "type": "string",
+          "format": "prefecture"
+        },
+        "cityAndCounty": {
+          "type": "string",
+          "format": "cityAndCounty"
+        },
+        "streetAddressAndCityBlock": {
+          "type": "string",
+          "format": "streetAddressAndCityBlock"
+        },
+        "buildingNameEtc": {
+          "type": "string",
+          "format": "buildingNameEtc"
+        },
+        "fullAddress": {
+          "type": "string",
+          "format": "fullAddress"
+        },
+        "postalCode": {
+          "type": "string",
+          "format": "postalCode"
+        },
+        "country": {
+          "type": "string",
+          "format": "country"
+        },
+        "streetAddress": {
+          "type": "string",
+          "format": "streetAddress"
+        },
+        "cityBlock": {
+          "type": "string",
+          "format": "cityBlock"
+        },
+        "prefectureKana": {
+          "type": "string",
+          "format": "prefectureKana"
+        },
+        "cityAndCountyKana": {
+          "type": "string",
+          "format": "cityAndCountyKana"
+        },
+        "streetAddressAndCityBlockKana": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockKana"
+        },
+        "buildingNameEtcKana": {
+          "type": "string",
+          "format": "buildingNameEtcKana"
+        },
+        "fullAddressKana": {
+          "type": "string",
+          "format": "fullAddressKana"
+        },
+        "prefectureEn": {
+          "type": "string",
+          "format": "prefectureEn"
+        },
+        "cityAndCountyEn": {
+          "type": "string",
+          "format": "cityAndCountyEn"
+        },
+        "streetAddressAndCityBlockEn": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockEn"
+        },
+        "buildingNameEtcEn": {
+          "type": "string",
+          "format": "buildingNameEtcEn"
+        },
+        "fullAddressEn": {
+          "type": "string",
+          "format": "fullAddressEn"
+        },
+        "latitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "latitudeOfRepresentativePoint"
+        },
+        "longitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "longitudeOfRepresentativePoint"
+        },
+        "coordinateReferenceSystem": {
+          "type": "string",
+          "format": "coordinateReferenceSystem"
+        },
+        "coordinateReferenceSystemCode": {
+          "type": "string",
+          "format": "coordinateReferenceSystemCode"
+        },
+        "county": {
+          "type": "string",
+          "format": "county"
+        },
+        "city": {
+          "type": "string",
+          "format": "city"
+        },
+        "ward": {
+          "type": "string",
+          "format": "ward"
+        },
+        "largerSectionTown": {
+          "type": "string",
+          "format": "largerSectionTown"
+        },
+        "chome": {
+          "type": "string",
+          "format": "chome"
+        },
+        "smallAdministrativeUnit": {
+          "type": "string",
+          "format": "smallAdministrativeUnit"
+        },
+        "displayedAddressFlag": {
+          "type": "number",
+          "format": "displayedAddressFlag"
+        },
+        "areaCode": {
+          "type": "string",
+          "format": "areaCode"
+        },
+        "residenceNumber": {
+          "type": "string",
+          "format": "residenceNumber"
+        },
+        "landNumber": {
+          "type": "string",
+          "format": "landNumber"
+        },
+        "buildingName": {
+          "type": "string",
+          "format": "buildingName"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "floorName"
+        },
+        "locatorName": {
+          "type": "string",
+          "format": "locatorName"
+        }
+      }
+    },
+    "pd:Address_MP03": {
+      "title": "pd:Address_MP03",
+      "type": "object",
+      "required": [
+        "localGovernmentCode",
+        "streetAddressId",
+        "buildingNameEtc",
+        "fullAddress"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "localGovernmentCode": {
+          "type": "string",
+          "format": "localGovernmentCode"
+        },
+        "streetAddressId": {
+          "type": "string",
+          "format": "streetAddressId"
+        },
+        "prefecture": {
+          "type": "string",
+          "format": "prefecture"
+        },
+        "cityAndCounty": {
+          "type": "string",
+          "format": "cityAndCounty"
+        },
+        "streetAddressAndCityBlock": {
+          "type": "string",
+          "format": "streetAddressAndCityBlock"
+        },
+        "buildingNameEtc": {
+          "type": "string",
+          "format": "buildingNameEtc"
+        },
+        "fullAddress": {
+          "type": "string",
+          "format": "fullAddress"
+        },
+        "postalCode": {
+          "type": "string",
+          "format": "postalCode"
+        },
+        "country": {
+          "type": "string",
+          "format": "country"
+        },
+        "streetAddress": {
+          "type": "string",
+          "format": "streetAddress"
+        },
+        "cityBlock": {
+          "type": "string",
+          "format": "cityBlock"
+        },
+        "prefectureKana": {
+          "type": "string",
+          "format": "prefectureKana"
+        },
+        "cityAndCountyKana": {
+          "type": "string",
+          "format": "cityAndCountyKana"
+        },
+        "streetAddressAndCityBlockKana": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockKana"
+        },
+        "buildingNameEtcKana": {
+          "type": "string",
+          "format": "buildingNameEtcKana"
+        },
+        "fullAddressKana": {
+          "type": "string",
+          "format": "fullAddressKana"
+        },
+        "prefectureEn": {
+          "type": "string",
+          "format": "prefectureEn"
+        },
+        "cityAndCountyEn": {
+          "type": "string",
+          "format": "cityAndCountyEn"
+        },
+        "streetAddressAndCityBlockEn": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockEn"
+        },
+        "buildingNameEtcEn": {
+          "type": "string",
+          "format": "buildingNameEtcEn"
+        },
+        "fullAddressEn": {
+          "type": "string",
+          "format": "fullAddressEn"
+        },
+        "latitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "latitudeOfRepresentativePoint"
+        },
+        "longitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "longitudeOfRepresentativePoint"
+        },
+        "coordinateReferenceSystem": {
+          "type": "string",
+          "format": "coordinateReferenceSystem"
+        },
+        "coordinateReferenceSystemCode": {
+          "type": "string",
+          "format": "coordinateReferenceSystemCode"
+        },
+        "county": {
+          "type": "string",
+          "format": "county"
+        },
+        "city": {
+          "type": "string",
+          "format": "city"
+        },
+        "ward": {
+          "type": "string",
+          "format": "ward"
+        },
+        "largerSectionTown": {
+          "type": "string",
+          "format": "largerSectionTown"
+        },
+        "chome": {
+          "type": "string",
+          "format": "chome"
+        },
+        "smallAdministrativeUnit": {
+          "type": "string",
+          "format": "smallAdministrativeUnit"
+        },
+        "displayedAddressFlag": {
+          "type": "number",
+          "format": "displayedAddressFlag"
+        },
+        "areaCode": {
+          "type": "string",
+          "format": "areaCode"
+        },
+        "residenceNumber": {
+          "type": "string",
+          "format": "residenceNumber"
+        },
+        "landNumber": {
+          "type": "string",
+          "format": "landNumber"
+        },
+        "buildingName": {
+          "type": "string",
+          "format": "buildingName"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "floorName"
+        },
+        "locatorName": {
+          "type": "string",
+          "format": "locatorName"
+        }
+      }
+    },
+    "pd:Address_MP04": {
+      "title": "pd:Address_MP04",
+      "type": "object",
+      "required": [
+        "localGovernmentCode",
+        "prefecture",
+        "cityAndCounty",
+        "streetAddressAndCityBlock",
+        "buildingNameEtc",
+        "fullAddress"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "localGovernmentCode": {
+          "type": "string",
+          "format": "localGovernmentCode"
+        },
+        "streetAddressId": {
+          "type": "string",
+          "format": "streetAddressId"
+        },
+        "prefecture": {
+          "type": "string",
+          "format": "prefecture"
+        },
+        "cityAndCounty": {
+          "type": "string",
+          "format": "cityAndCounty"
+        },
+        "streetAddressAndCityBlock": {
+          "type": "string",
+          "format": "streetAddressAndCityBlock"
+        },
+        "buildingNameEtc": {
+          "type": "string",
+          "format": "buildingNameEtc"
+        },
+        "fullAddress": {
+          "type": "string",
+          "format": "fullAddress"
+        },
+        "postalCode": {
+          "type": "string",
+          "format": "postalCode"
+        },
+        "country": {
+          "type": "string",
+          "format": "country"
+        },
+        "streetAddress": {
+          "type": "string",
+          "format": "streetAddress"
+        },
+        "cityBlock": {
+          "type": "string",
+          "format": "cityBlock"
+        },
+        "prefectureKana": {
+          "type": "string",
+          "format": "prefectureKana"
+        },
+        "cityAndCountyKana": {
+          "type": "string",
+          "format": "cityAndCountyKana"
+        },
+        "streetAddressAndCityBlockKana": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockKana"
+        },
+        "buildingNameEtcKana": {
+          "type": "string",
+          "format": "buildingNameEtcKana"
+        },
+        "fullAddressKana": {
+          "type": "string",
+          "format": "fullAddressKana"
+        },
+        "prefectureEn": {
+          "type": "string",
+          "format": "prefectureEn"
+        },
+        "cityAndCountyEn": {
+          "type": "string",
+          "format": "cityAndCountyEn"
+        },
+        "streetAddressAndCityBlockEn": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockEn"
+        },
+        "buildingNameEtcEn": {
+          "type": "string",
+          "format": "buildingNameEtcEn"
+        },
+        "fullAddressEn": {
+          "type": "string",
+          "format": "fullAddressEn"
+        },
+        "latitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "latitudeOfRepresentativePoint"
+        },
+        "longitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "longitudeOfRepresentativePoint"
+        },
+        "coordinateReferenceSystem": {
+          "type": "string",
+          "format": "coordinateReferenceSystem"
+        },
+        "coordinateReferenceSystemCode": {
+          "type": "string",
+          "format": "coordinateReferenceSystemCode"
+        },
+        "county": {
+          "type": "string",
+          "format": "county"
+        },
+        "city": {
+          "type": "string",
+          "format": "city"
+        },
+        "ward": {
+          "type": "string",
+          "format": "ward"
+        },
+        "largerSectionTown": {
+          "type": "string",
+          "format": "largerSectionTown"
+        },
+        "chome": {
+          "type": "string",
+          "format": "chome"
+        },
+        "smallAdministrativeUnit": {
+          "type": "string",
+          "format": "smallAdministrativeUnit"
+        },
+        "displayedAddressFlag": {
+          "type": "number",
+          "format": "displayedAddressFlag"
+        },
+        "areaCode": {
+          "type": "string",
+          "format": "areaCode"
+        },
+        "residenceNumber": {
+          "type": "string",
+          "format": "residenceNumber"
+        },
+        "landNumber": {
+          "type": "string",
+          "format": "landNumber"
+        },
+        "buildingName": {
+          "type": "string",
+          "format": "buildingName"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "floorName"
+        },
+        "locatorName": {
+          "type": "string",
+          "format": "locatorName"
+        }
+      }
+    },
+    "pd:Address_MP05": {
+      "title": "pd:Address_MP05",
+      "type": "object",
+      "required": [
+        "localGovernmentCode",
+        "streetAddressAndCityBlock",
+        "buildingNameEtc",
+        "fullAddress"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "localGovernmentCode": {
+          "type": "string",
+          "format": "localGovernmentCode"
+        },
+        "streetAddressId": {
+          "type": "string",
+          "format": "streetAddressId"
+        },
+        "prefecture": {
+          "type": "string",
+          "format": "prefecture"
+        },
+        "cityAndCounty": {
+          "type": "string",
+          "format": "cityAndCounty"
+        },
+        "streetAddressAndCityBlock": {
+          "type": "string",
+          "format": "streetAddressAndCityBlock"
+        },
+        "buildingNameEtc": {
+          "type": "string",
+          "format": "buildingNameEtc"
+        },
+        "fullAddress": {
+          "type": "string",
+          "format": "fullAddress"
+        },
+        "postalCode": {
+          "type": "string",
+          "format": "postalCode"
+        },
+        "country": {
+          "type": "string",
+          "format": "country"
+        },
+        "streetAddress": {
+          "type": "string",
+          "format": "streetAddress"
+        },
+        "cityBlock": {
+          "type": "string",
+          "format": "cityBlock"
+        },
+        "prefectureKana": {
+          "type": "string",
+          "format": "prefectureKana"
+        },
+        "cityAndCountyKana": {
+          "type": "string",
+          "format": "cityAndCountyKana"
+        },
+        "streetAddressAndCityBlockKana": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockKana"
+        },
+        "buildingNameEtcKana": {
+          "type": "string",
+          "format": "buildingNameEtcKana"
+        },
+        "fullAddressKana": {
+          "type": "string",
+          "format": "fullAddressKana"
+        },
+        "prefectureEn": {
+          "type": "string",
+          "format": "prefectureEn"
+        },
+        "cityAndCountyEn": {
+          "type": "string",
+          "format": "cityAndCountyEn"
+        },
+        "streetAddressAndCityBlockEn": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockEn"
+        },
+        "buildingNameEtcEn": {
+          "type": "string",
+          "format": "buildingNameEtcEn"
+        },
+        "fullAddressEn": {
+          "type": "string",
+          "format": "fullAddressEn"
+        },
+        "latitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "latitudeOfRepresentativePoint"
+        },
+        "longitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "longitudeOfRepresentativePoint"
+        },
+        "coordinateReferenceSystem": {
+          "type": "string",
+          "format": "coordinateReferenceSystem"
+        },
+        "coordinateReferenceSystemCode": {
+          "type": "string",
+          "format": "coordinateReferenceSystemCode"
+        },
+        "county": {
+          "type": "string",
+          "format": "county"
+        },
+        "city": {
+          "type": "string",
+          "format": "city"
+        },
+        "ward": {
+          "type": "string",
+          "format": "ward"
+        },
+        "largerSectionTown": {
+          "type": "string",
+          "format": "largerSectionTown"
+        },
+        "chome": {
+          "type": "string",
+          "format": "chome"
+        },
+        "smallAdministrativeUnit": {
+          "type": "string",
+          "format": "smallAdministrativeUnit"
+        },
+        "displayedAddressFlag": {
+          "type": "number",
+          "format": "displayedAddressFlag"
+        },
+        "areaCode": {
+          "type": "string",
+          "format": "areaCode"
+        },
+        "residenceNumber": {
+          "type": "string",
+          "format": "residenceNumber"
+        },
+        "landNumber": {
+          "type": "string",
+          "format": "landNumber"
+        },
+        "buildingName": {
+          "type": "string",
+          "format": "buildingName"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "floorName"
+        },
+        "locatorName": {
+          "type": "string",
+          "format": "locatorName"
+        }
+      }
+    },
+    "pd:Address_MP06": {
+      "title": "pd:Address_MP06",
+      "type": "object",
+      "required": [
+        "prefecture",
+        "cityAndCounty",
+        "streetAddressAndCityBlock",
+        "buildingNameEtc",
+        "fullAddress"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "localGovernmentCode": {
+          "type": "string",
+          "format": "localGovernmentCode"
+        },
+        "streetAddressId": {
+          "type": "string",
+          "format": "streetAddressId"
+        },
+        "prefecture": {
+          "type": "string",
+          "format": "prefecture"
+        },
+        "cityAndCounty": {
+          "type": "string",
+          "format": "cityAndCounty"
+        },
+        "streetAddressAndCityBlock": {
+          "type": "string",
+          "format": "streetAddressAndCityBlock"
+        },
+        "buildingNameEtc": {
+          "type": "string",
+          "format": "buildingNameEtc"
+        },
+        "fullAddress": {
+          "type": "string",
+          "format": "fullAddress"
+        },
+        "postalCode": {
+          "type": "string",
+          "format": "postalCode"
+        },
+        "country": {
+          "type": "string",
+          "format": "country"
+        },
+        "streetAddress": {
+          "type": "string",
+          "format": "streetAddress"
+        },
+        "cityBlock": {
+          "type": "string",
+          "format": "cityBlock"
+        },
+        "prefectureKana": {
+          "type": "string",
+          "format": "prefectureKana"
+        },
+        "cityAndCountyKana": {
+          "type": "string",
+          "format": "cityAndCountyKana"
+        },
+        "streetAddressAndCityBlockKana": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockKana"
+        },
+        "buildingNameEtcKana": {
+          "type": "string",
+          "format": "buildingNameEtcKana"
+        },
+        "fullAddressKana": {
+          "type": "string",
+          "format": "fullAddressKana"
+        },
+        "prefectureEn": {
+          "type": "string",
+          "format": "prefectureEn"
+        },
+        "cityAndCountyEn": {
+          "type": "string",
+          "format": "cityAndCountyEn"
+        },
+        "streetAddressAndCityBlockEn": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockEn"
+        },
+        "buildingNameEtcEn": {
+          "type": "string",
+          "format": "buildingNameEtcEn"
+        },
+        "fullAddressEn": {
+          "type": "string",
+          "format": "fullAddressEn"
+        },
+        "latitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "latitudeOfRepresentativePoint"
+        },
+        "longitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "longitudeOfRepresentativePoint"
+        },
+        "coordinateReferenceSystem": {
+          "type": "string",
+          "format": "coordinateReferenceSystem"
+        },
+        "coordinateReferenceSystemCode": {
+          "type": "string",
+          "format": "coordinateReferenceSystemCode"
+        },
+        "county": {
+          "type": "string",
+          "format": "county"
+        },
+        "city": {
+          "type": "string",
+          "format": "city"
+        },
+        "ward": {
+          "type": "string",
+          "format": "ward"
+        },
+        "largerSectionTown": {
+          "type": "string",
+          "format": "largerSectionTown"
+        },
+        "chome": {
+          "type": "string",
+          "format": "chome"
+        },
+        "smallAdministrativeUnit": {
+          "type": "string",
+          "format": "smallAdministrativeUnit"
+        },
+        "displayedAddressFlag": {
+          "type": "number",
+          "format": "displayedAddressFlag"
+        },
+        "areaCode": {
+          "type": "string",
+          "format": "areaCode"
+        },
+        "residenceNumber": {
+          "type": "string",
+          "format": "residenceNumber"
+        },
+        "landNumber": {
+          "type": "string",
+          "format": "landNumber"
+        },
+        "buildingName": {
+          "type": "string",
+          "format": "buildingName"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "floorName"
+        },
+        "locatorName": {
+          "type": "string",
+          "format": "locatorName"
+        }
+      }
+    },
+    "pd:Address_MP07": {
+      "title": "pd:Address_MP07",
+      "type": "object",
+      "required": [
+        "fullAddress",
+        "postalCode",
+        "country"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "localGovernmentCode": {
+          "type": "string",
+          "format": "localGovernmentCode"
+        },
+        "streetAddressId": {
+          "type": "string",
+          "format": "streetAddressId"
+        },
+        "prefecture": {
+          "type": "string",
+          "format": "prefecture"
+        },
+        "cityAndCounty": {
+          "type": "string",
+          "format": "cityAndCounty"
+        },
+        "streetAddressAndCityBlock": {
+          "type": "string",
+          "format": "streetAddressAndCityBlock"
+        },
+        "buildingNameEtc": {
+          "type": "string",
+          "format": "buildingNameEtc"
+        },
+        "fullAddress": {
+          "type": "string",
+          "format": "fullAddress"
+        },
+        "postalCode": {
+          "type": "string",
+          "format": "postalCode"
+        },
+        "country": {
+          "type": "string",
+          "format": "country"
+        },
+        "streetAddress": {
+          "type": "string",
+          "format": "streetAddress"
+        },
+        "cityBlock": {
+          "type": "string",
+          "format": "cityBlock"
+        },
+        "prefectureKana": {
+          "type": "string",
+          "format": "prefectureKana"
+        },
+        "cityAndCountyKana": {
+          "type": "string",
+          "format": "cityAndCountyKana"
+        },
+        "streetAddressAndCityBlockKana": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockKana"
+        },
+        "buildingNameEtcKana": {
+          "type": "string",
+          "format": "buildingNameEtcKana"
+        },
+        "fullAddressKana": {
+          "type": "string",
+          "format": "fullAddressKana"
+        },
+        "prefectureEn": {
+          "type": "string",
+          "format": "prefectureEn"
+        },
+        "cityAndCountyEn": {
+          "type": "string",
+          "format": "cityAndCountyEn"
+        },
+        "streetAddressAndCityBlockEn": {
+          "type": "string",
+          "format": "streetAddressAndCityBlockEn"
+        },
+        "buildingNameEtcEn": {
+          "type": "string",
+          "format": "buildingNameEtcEn"
+        },
+        "fullAddressEn": {
+          "type": "string",
+          "format": "fullAddressEn"
+        },
+        "latitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "latitudeOfRepresentativePoint"
+        },
+        "longitudeOfRepresentativePoint": {
+          "type": "number",
+          "format": "longitudeOfRepresentativePoint"
+        },
+        "coordinateReferenceSystem": {
+          "type": "string",
+          "format": "coordinateReferenceSystem"
+        },
+        "coordinateReferenceSystemCode": {
+          "type": "string",
+          "format": "coordinateReferenceSystemCode"
+        },
+        "county": {
+          "type": "string",
+          "format": "county"
+        },
+        "city": {
+          "type": "string",
+          "format": "city"
+        },
+        "ward": {
+          "type": "string",
+          "format": "ward"
+        },
+        "largerSectionTown": {
+          "type": "string",
+          "format": "largerSectionTown"
+        },
+        "chome": {
+          "type": "string",
+          "format": "chome"
+        },
+        "smallAdministrativeUnit": {
+          "type": "string",
+          "format": "smallAdministrativeUnit"
+        },
+        "displayedAddressFlag": {
+          "type": "number",
+          "format": "displayedAddressFlag"
+        },
+        "areaCode": {
+          "type": "string",
+          "format": "areaCode"
+        },
+        "residenceNumber": {
+          "type": "string",
+          "format": "residenceNumber"
+        },
+        "landNumber": {
+          "type": "string",
+          "format": "landNumber"
+        },
+        "buildingName": {
+          "type": "string",
+          "format": "buildingName"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "floorName"
+        },
+        "locatorName": {
+          "type": "string",
+          "format": "locatorName"
+        }
+      }
+    }
+  },
+  "anyOf": [
+    {
+      "$ref": "#/definitions/pd:Address_MP01"
+    },
+    {
+      "$ref": "#/definitions/pd:Address_MP02"
+    },
+    {
+      "$ref": "#/definitions/pd:Address_MP03"
+    },
+    {
+      "$ref": "#/definitions/pd:Address_MP04"
+    },
+    {
+      "$ref": "#/definitions/pd:Address_MP05"
+    },
+    {
+      "$ref": "#/definitions/pd:Address_MP06"
+    },
+    {
+      "$ref": "#/definitions/pd:Address_MP07"
+    }
+  ]
+}

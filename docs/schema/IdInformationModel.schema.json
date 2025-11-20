@@ -1,0 +1,26 @@
+{
+  "definitions": {
+    "pd:IdInformationModel": {
+      "title": "pd:IdInformationModel",
+      "type": "object",
+      "required": [
+        "idType",
+        "id"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "idType": {
+          "type": "string"
+        },
+        "id": {
+          "$ref": "#/definitions/ex:hankaku"
+        }
+      }
+    },
+    "ex:hankaku": {
+      "type": "string",
+      "pattern": "^[ -~]*$"
+    }
+  },
+  "$ref": "#/definitions/pd:IdInformationModel"
+}

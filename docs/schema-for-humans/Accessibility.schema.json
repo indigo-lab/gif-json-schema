@@ -1,0 +1,79 @@
+{
+  "definitions": {
+    "pd:Accessibility": {
+      "title": "pd:Accessibility",
+      "type": "object",
+      "required": [],
+      "additionalProperties": false,
+      "properties": {
+        "wheelchairPermissionStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "wheelchairRentalStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "caneRentalStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "multipurposeToiletStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "rampsOrElevatorsOrEscalatorsStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "mobilitySupportForBrailleBlocksEtcStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "brailleAndReadingAssistanceStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "accompaniedByGuideDogsAndServiceDogsStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "subtitlesStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "writingSupportStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "priorityParkingStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "toiletForOstomatesStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "childToiletStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "nurseryStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "diaperChangingCornerStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "foodAndDrinkPermissionStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "strollerRentalStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "strollerPermissionStatus": {
+          "$ref": "#/definitions/pcd:StatusCodeList"
+        },
+        "remark": {
+          "type": "string"
+        }
+      }
+    },
+    "pcd:StatusCodeList": {
+      "type": "string",
+      "enum": [
+        "0",
+        "1",
+        "2",
+        "9"
+      ]
+    }
+  },
+  "$ref": "#/definitions/pd:Accessibility"
+}

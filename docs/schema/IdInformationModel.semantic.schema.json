@@ -1,0 +1,24 @@
+{
+  "definitions": {
+    "pd:IdInformationModel": {
+      "title": "pd:IdInformationModel",
+      "type": "object",
+      "required": [
+        "idType",
+        "id"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "idType": {
+          "type": "string",
+          "format": "idType"
+        },
+        "id": {
+          "type": "string",
+          "format": "id"
+        }
+      }
+    }
+  },
+  "$ref": "#/definitions/pd:IdInformationModel"
+}
