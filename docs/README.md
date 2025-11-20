@@ -21,7 +21,7 @@
 
 JSON Schema を
 
-## HTML (experimental)
+### HTML (experimental)
 
 <https://github.com/indigo-lab/gif-json-schema/tree/main/docs/schema-for-humans> に配備されている
 JSON Schema 群を [json-schema-for-humans](https://github.com/coveooss/json-schema-for-humans) で処理した HTML ファイルを提供しています。JSON Schema の内容を HTML ビューで確認することができます。
