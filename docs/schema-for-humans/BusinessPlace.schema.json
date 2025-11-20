@@ -3,7 +3,7 @@
     "pd:BusinessPlace": {
       "anyOf": [
         {
-          "title": "pd:BusinessPlace",
+          "title": "pd:BusinessPlace (1)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -30,14 +30,15 @@
                   "items": {
                     "$ref": "#/definitions/ex:legalEntityNumber"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:legalEntityNumber (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:BusinessPlace",
+          "title": "pd:BusinessPlace (2)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -64,14 +65,15 @@
                   "items": {
                     "$ref": "#/definitions/ex:legalEntityNumber"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:legalEntityNumber (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:BusinessPlace",
+          "title": "pd:BusinessPlace (3)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -98,14 +100,15 @@
                   "items": {
                     "$ref": "#/definitions/ex:legalEntityNumber"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:legalEntityNumber (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:BusinessPlace",
+          "title": "pd:BusinessPlace (4)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -132,14 +135,15 @@
                   "items": {
                     "$ref": "#/definitions/ex:legalEntityNumber"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:legalEntityNumber (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:BusinessPlace",
+          "title": "pd:BusinessPlace (5)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -166,14 +170,15 @@
                   "items": {
                     "$ref": "#/definitions/ex:legalEntityNumber"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:legalEntityNumber (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:BusinessPlace",
+          "title": "pd:BusinessPlace (6)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -200,14 +205,15 @@
                   "items": {
                     "$ref": "#/definitions/ex:legalEntityNumber"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:legalEntityNumber (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:BusinessPlace",
+          "title": "pd:BusinessPlace (7)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -234,13 +240,15 @@
                   "items": {
                     "$ref": "#/definitions/ex:legalEntityNumber"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:legalEntityNumber (複数)"
                 }
               ]
             }
           }
         }
-      ]
+      ],
+      "description": "このデータモデルには制約パターン(Mandatory Pattern, MP) の組み合わせに応じた  7 のバリエーションが整備されています"
     },
     "ex:hankaku": {
       "type": "string",
@@ -1405,5 +1413,7 @@
       }
     }
   },
-  "$ref": "#/definitions/pd:BusinessPlace"
+  "$ref": "#/definitions/pd:BusinessPlace",
+  "$id": "BusinessPlace.schema.json",
+  "title": "データモデル BusinessPlace"
 }

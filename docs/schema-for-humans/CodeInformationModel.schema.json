@@ -18,5 +18,7 @@
       }
     }
   },
-  "$ref": "#/definitions/pd:CodeInformationModel"
+  "$ref": "#/definitions/pd:CodeInformationModel",
+  "$id": "CodeInformationModel.schema.json",
+  "title": "データモデル CodeInformationModel"
 }

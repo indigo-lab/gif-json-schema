@@ -3,7 +3,7 @@
     "pd:Land": {
       "anyOf": [
         {
-          "title": "pd:Land",
+          "title": "pd:Land (1)",
           "type": "object",
           "required": [
             "usage",
@@ -25,7 +25,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -65,7 +66,7 @@
           }
         },
         {
-          "title": "pd:Land",
+          "title": "pd:Land (2)",
           "type": "object",
           "required": [
             "usage",
@@ -87,7 +88,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -127,7 +129,7 @@
           }
         },
         {
-          "title": "pd:Land",
+          "title": "pd:Land (3)",
           "type": "object",
           "required": [
             "usage",
@@ -149,7 +151,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -189,7 +192,7 @@
           }
         },
         {
-          "title": "pd:Land",
+          "title": "pd:Land (4)",
           "type": "object",
           "required": [
             "usage",
@@ -211,7 +214,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -251,7 +255,7 @@
           }
         },
         {
-          "title": "pd:Land",
+          "title": "pd:Land (5)",
           "type": "object",
           "required": [
             "usage",
@@ -273,7 +277,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -313,7 +318,7 @@
           }
         },
         {
-          "title": "pd:Land",
+          "title": "pd:Land (6)",
           "type": "object",
           "required": [
             "usage",
@@ -335,7 +340,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -375,7 +381,7 @@
           }
         },
         {
-          "title": "pd:Land",
+          "title": "pd:Land (7)",
           "type": "object",
           "required": [
             "usage",
@@ -397,7 +403,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -436,7 +443,8 @@
             }
           }
         }
-      ]
+      ],
+      "description": "このデータモデルには制約パターン(Mandatory Pattern, MP) の組み合わせに応じた  7 のバリエーションが整備されています"
     },
     "pd:IdInformationModel": {
       "title": "pd:IdInformationModel",
@@ -869,7 +877,7 @@
     "pd:ContactPoint": {
       "anyOf": [
         {
-          "title": "pd:ContactPoint",
+          "title": "pd:ContactPoint (1)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -890,7 +898,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:hankaku"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:hankaku (複数)"
                 }
               ]
             },
@@ -904,7 +913,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -921,7 +931,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -934,7 +945,7 @@
           }
         },
         {
-          "title": "pd:ContactPoint",
+          "title": "pd:ContactPoint (2)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -955,7 +966,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:hankaku"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:hankaku (複数)"
                 }
               ]
             },
@@ -969,7 +981,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -986,7 +999,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -999,7 +1013,7 @@
           }
         },
         {
-          "title": "pd:ContactPoint",
+          "title": "pd:ContactPoint (3)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -1020,7 +1034,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:hankaku"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:hankaku (複数)"
                 }
               ]
             },
@@ -1034,7 +1049,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1051,7 +1067,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1064,7 +1081,7 @@
           }
         },
         {
-          "title": "pd:ContactPoint",
+          "title": "pd:ContactPoint (4)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -1085,7 +1102,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:hankaku"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:hankaku (複数)"
                 }
               ]
             },
@@ -1099,7 +1117,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1116,7 +1135,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1129,7 +1149,7 @@
           }
         },
         {
-          "title": "pd:ContactPoint",
+          "title": "pd:ContactPoint (5)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -1150,7 +1170,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:hankaku"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:hankaku (複数)"
                 }
               ]
             },
@@ -1164,7 +1185,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1181,7 +1203,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1194,7 +1217,7 @@
           }
         },
         {
-          "title": "pd:ContactPoint",
+          "title": "pd:ContactPoint (6)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -1215,7 +1238,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:hankaku"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:hankaku (複数)"
                 }
               ]
             },
@@ -1229,7 +1253,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1246,7 +1271,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1259,7 +1285,7 @@
           }
         },
         {
-          "title": "pd:ContactPoint",
+          "title": "pd:ContactPoint (7)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -1280,7 +1306,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:hankaku"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:hankaku (複数)"
                 }
               ]
             },
@@ -1294,7 +1321,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1311,7 +1339,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1323,7 +1352,8 @@
             }
           }
         }
-      ]
+      ],
+      "description": "このデータモデルには制約パターン(Mandatory Pattern, MP) の組み合わせに応じた  7 のバリエーションが整備されています"
     },
     "pd:Address_MP02": {
       "title": "pd:Address_MP02",
@@ -2094,5 +2124,7 @@
       }
     }
   },
-  "$ref": "#/definitions/pd:Land"
+  "$ref": "#/definitions/pd:Land",
+  "$id": "Land.schema.json",
+  "title": "データモデル Land"
 }

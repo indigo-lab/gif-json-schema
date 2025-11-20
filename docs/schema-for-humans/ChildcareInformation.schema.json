@@ -59,5 +59,7 @@
       }
     }
   },
-  "$ref": "#/definitions/pd:ChildcareInformation"
+  "$ref": "#/definitions/pd:ChildcareInformation",
+  "$id": "ChildcareInformation.schema.json",
+  "title": "データモデル ChildcareInformation"
 }

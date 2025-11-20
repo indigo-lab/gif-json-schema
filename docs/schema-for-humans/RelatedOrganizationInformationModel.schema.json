@@ -39,5 +39,7 @@
       "pattern": "^[0-9]{13}$"
     }
   },
-  "$ref": "#/definitions/pd:RelatedOrganizationInformationModel"
+  "$ref": "#/definitions/pd:RelatedOrganizationInformationModel",
+  "$id": "RelatedOrganizationInformationModel.schema.json",
+  "title": "データモデル RelatedOrganizationInformationModel"
 }

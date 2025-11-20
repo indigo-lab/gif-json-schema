@@ -75,5 +75,7 @@
       ]
     }
   },
-  "$ref": "#/definitions/pd:Accessibility"
+  "$ref": "#/definitions/pd:Accessibility",
+  "$id": "Accessibility.schema.json",
+  "title": "データモデル Accessibility"
 }

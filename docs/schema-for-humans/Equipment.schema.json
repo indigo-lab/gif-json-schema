@@ -3,7 +3,7 @@
     "pd:Equipment": {
       "anyOf": [
         {
-          "title": "pd:Equipment",
+          "title": "pd:Equipment (1)",
           "type": "object",
           "required": [
             "name",
@@ -25,7 +25,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -57,7 +58,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -71,7 +73,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -85,7 +88,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -99,7 +103,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -113,7 +118,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -127,7 +133,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -141,7 +148,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:uri"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:uri (複数)"
                 }
               ]
             },
@@ -155,7 +163,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -169,7 +178,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:ContactPoint"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ContactPoint (複数)"
                 }
               ]
             },
@@ -183,7 +193,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Facility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Facility (複数)"
                 }
               ]
             },
@@ -197,14 +208,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:Building"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Building (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Equipment",
+          "title": "pd:Equipment (2)",
           "type": "object",
           "required": [
             "name",
@@ -226,7 +238,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -258,7 +271,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -272,7 +286,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -286,7 +301,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -300,7 +316,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -314,7 +331,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -328,7 +346,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -342,7 +361,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:uri"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:uri (複数)"
                 }
               ]
             },
@@ -356,7 +376,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -370,7 +391,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:ContactPoint"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ContactPoint (複数)"
                 }
               ]
             },
@@ -384,7 +406,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Facility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Facility (複数)"
                 }
               ]
             },
@@ -398,14 +421,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:Building"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Building (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Equipment",
+          "title": "pd:Equipment (3)",
           "type": "object",
           "required": [
             "name",
@@ -427,7 +451,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -459,7 +484,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -473,7 +499,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -487,7 +514,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -501,7 +529,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -515,7 +544,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -529,7 +559,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -543,7 +574,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:uri"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:uri (複数)"
                 }
               ]
             },
@@ -557,7 +589,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -571,7 +604,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:ContactPoint"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ContactPoint (複数)"
                 }
               ]
             },
@@ -585,7 +619,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Facility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Facility (複数)"
                 }
               ]
             },
@@ -599,14 +634,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:Building"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Building (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Equipment",
+          "title": "pd:Equipment (4)",
           "type": "object",
           "required": [
             "name",
@@ -628,7 +664,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -660,7 +697,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -674,7 +712,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -688,7 +727,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -702,7 +742,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -716,7 +757,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -730,7 +772,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -744,7 +787,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:uri"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:uri (複数)"
                 }
               ]
             },
@@ -758,7 +802,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -772,7 +817,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:ContactPoint"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ContactPoint (複数)"
                 }
               ]
             },
@@ -786,7 +832,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Facility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Facility (複数)"
                 }
               ]
             },
@@ -800,14 +847,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:Building"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Building (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Equipment",
+          "title": "pd:Equipment (5)",
           "type": "object",
           "required": [
             "name",
@@ -829,7 +877,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -861,7 +910,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -875,7 +925,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -889,7 +940,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -903,7 +955,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -917,7 +970,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -931,7 +985,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -945,7 +1000,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:uri"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:uri (複数)"
                 }
               ]
             },
@@ -959,7 +1015,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -973,7 +1030,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:ContactPoint"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ContactPoint (複数)"
                 }
               ]
             },
@@ -987,7 +1045,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Facility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Facility (複数)"
                 }
               ]
             },
@@ -1001,14 +1060,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:Building"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Building (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Equipment",
+          "title": "pd:Equipment (6)",
           "type": "object",
           "required": [
             "name",
@@ -1030,7 +1090,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -1062,7 +1123,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1076,7 +1138,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -1090,7 +1153,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -1104,7 +1168,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1118,7 +1183,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1132,7 +1198,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1146,7 +1213,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:uri"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:uri (複数)"
                 }
               ]
             },
@@ -1160,7 +1228,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1174,7 +1243,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:ContactPoint"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ContactPoint (複数)"
                 }
               ]
             },
@@ -1188,7 +1258,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Facility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Facility (複数)"
                 }
               ]
             },
@@ -1202,14 +1273,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:Building"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Building (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Equipment",
+          "title": "pd:Equipment (7)",
           "type": "object",
           "required": [
             "name",
@@ -1231,7 +1303,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -1263,7 +1336,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1277,7 +1351,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -1291,7 +1366,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -1305,7 +1381,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1319,7 +1396,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1333,7 +1411,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1347,7 +1426,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:uri"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:uri (複数)"
                 }
               ]
             },
@@ -1361,7 +1441,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1375,7 +1456,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:ContactPoint"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ContactPoint (複数)"
                 }
               ]
             },
@@ -1389,7 +1471,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Facility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Facility (複数)"
                 }
               ]
             },
@@ -1403,13 +1486,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:Building"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Building (複数)"
                 }
               ]
             }
           }
         }
-      ]
+      ],
+      "description": "このデータモデルには制約パターン(Mandatory Pattern, MP) の組み合わせに応じた  7 のバリエーションが整備されています"
     },
     "ex:hankaku": {
       "type": "string",
@@ -1829,7 +1914,7 @@
     "pd:ContactPoint": {
       "anyOf": [
         {
-          "title": "pd:ContactPoint",
+          "title": "pd:ContactPoint (1)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -1850,7 +1935,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:hankaku"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:hankaku (複数)"
                 }
               ]
             },
@@ -1864,7 +1950,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1881,7 +1968,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1894,7 +1982,7 @@
           }
         },
         {
-          "title": "pd:ContactPoint",
+          "title": "pd:ContactPoint (2)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -1915,7 +2003,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:hankaku"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:hankaku (複数)"
                 }
               ]
             },
@@ -1929,7 +2018,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1946,7 +2036,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -1959,7 +2050,7 @@
           }
         },
         {
-          "title": "pd:ContactPoint",
+          "title": "pd:ContactPoint (3)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -1980,7 +2071,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:hankaku"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:hankaku (複数)"
                 }
               ]
             },
@@ -1994,7 +2086,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -2011,7 +2104,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -2024,7 +2118,7 @@
           }
         },
         {
-          "title": "pd:ContactPoint",
+          "title": "pd:ContactPoint (4)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -2045,7 +2139,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:hankaku"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:hankaku (複数)"
                 }
               ]
             },
@@ -2059,7 +2154,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -2076,7 +2172,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -2089,7 +2186,7 @@
           }
         },
         {
-          "title": "pd:ContactPoint",
+          "title": "pd:ContactPoint (5)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -2110,7 +2207,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:hankaku"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:hankaku (複数)"
                 }
               ]
             },
@@ -2124,7 +2222,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -2141,7 +2240,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -2154,7 +2254,7 @@
           }
         },
         {
-          "title": "pd:ContactPoint",
+          "title": "pd:ContactPoint (6)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -2175,7 +2275,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:hankaku"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:hankaku (複数)"
                 }
               ]
             },
@@ -2189,7 +2290,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -2206,7 +2308,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -2219,7 +2322,7 @@
           }
         },
         {
-          "title": "pd:ContactPoint",
+          "title": "pd:ContactPoint (7)",
           "type": "object",
           "required": [],
           "additionalProperties": false,
@@ -2240,7 +2343,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:hankaku"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:hankaku (複数)"
                 }
               ]
             },
@@ -2254,7 +2358,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -2271,7 +2376,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -2283,7 +2389,8 @@
             }
           }
         }
-      ]
+      ],
+      "description": "このデータモデルには制約パターン(Mandatory Pattern, MP) の組み合わせに応じた  7 のバリエーションが整備されています"
     },
     "pd:Address_MP02": {
       "title": "pd:Address_MP02",
@@ -3056,7 +3163,7 @@
     "pd:Facility": {
       "anyOf": [
         {
-          "title": "pd:Facility",
+          "title": "pd:Facility (1)",
           "type": "object",
           "required": [
             "id",
@@ -3113,7 +3220,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3127,7 +3235,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Facility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Facility (複数)"
                 }
               ]
             },
@@ -3141,7 +3250,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3155,7 +3265,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3169,7 +3280,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Equipment"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Equipment (複数)"
                 }
               ]
             },
@@ -3183,7 +3295,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3197,7 +3310,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -3211,7 +3325,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -3225,7 +3340,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3239,7 +3355,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3253,7 +3370,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3267,7 +3385,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3281,7 +3400,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -3295,7 +3415,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3309,7 +3430,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3323,7 +3445,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -3337,7 +3460,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3351,7 +3475,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3365,7 +3490,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:prefectureCode"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:prefectureCode (複数)"
                 }
               ]
             },
@@ -3379,7 +3505,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:standardAreaCode"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:standardAreaCode (複数)"
                 }
               ]
             },
@@ -3393,7 +3520,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3407,7 +3535,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:uri"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:uri (複数)"
                 }
               ]
             },
@@ -3421,7 +3550,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3435,7 +3565,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Accessibility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Accessibility (複数)"
                 }
               ]
             },
@@ -3449,14 +3580,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:ChildcareInformation"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ChildcareInformation (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Facility",
+          "title": "pd:Facility (2)",
           "type": "object",
           "required": [
             "id",
@@ -3513,7 +3645,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3527,7 +3660,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Facility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Facility (複数)"
                 }
               ]
             },
@@ -3541,7 +3675,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3555,7 +3690,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3569,7 +3705,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Equipment"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Equipment (複数)"
                 }
               ]
             },
@@ -3583,7 +3720,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3597,7 +3735,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -3611,7 +3750,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -3625,7 +3765,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3639,7 +3780,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3653,7 +3795,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3667,7 +3810,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3681,7 +3825,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -3695,7 +3840,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3709,7 +3855,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3723,7 +3870,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -3737,7 +3885,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3751,7 +3900,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3765,7 +3915,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:prefectureCode"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:prefectureCode (複数)"
                 }
               ]
             },
@@ -3779,7 +3930,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:standardAreaCode"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:standardAreaCode (複数)"
                 }
               ]
             },
@@ -3793,7 +3945,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3807,7 +3960,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:uri"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:uri (複数)"
                 }
               ]
             },
@@ -3821,7 +3975,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3835,7 +3990,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Accessibility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Accessibility (複数)"
                 }
               ]
             },
@@ -3849,14 +4005,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:ChildcareInformation"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ChildcareInformation (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Facility",
+          "title": "pd:Facility (3)",
           "type": "object",
           "required": [
             "id",
@@ -3913,7 +4070,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3927,7 +4085,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Facility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Facility (複数)"
                 }
               ]
             },
@@ -3941,7 +4100,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3955,7 +4115,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3969,7 +4130,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Equipment"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Equipment (複数)"
                 }
               ]
             },
@@ -3983,7 +4145,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -3997,7 +4160,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -4011,7 +4175,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -4025,7 +4190,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4039,7 +4205,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4053,7 +4220,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4067,7 +4235,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4081,7 +4250,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -4095,7 +4265,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4109,7 +4280,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4123,7 +4295,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -4137,7 +4310,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4151,7 +4325,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4165,7 +4340,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:prefectureCode"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:prefectureCode (複数)"
                 }
               ]
             },
@@ -4179,7 +4355,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:standardAreaCode"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:standardAreaCode (複数)"
                 }
               ]
             },
@@ -4193,7 +4370,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4207,7 +4385,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:uri"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:uri (複数)"
                 }
               ]
             },
@@ -4221,7 +4400,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4235,7 +4415,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Accessibility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Accessibility (複数)"
                 }
               ]
             },
@@ -4249,14 +4430,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:ChildcareInformation"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ChildcareInformation (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Facility",
+          "title": "pd:Facility (4)",
           "type": "object",
           "required": [
             "id",
@@ -4313,7 +4495,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4327,7 +4510,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Facility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Facility (複数)"
                 }
               ]
             },
@@ -4341,7 +4525,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4355,7 +4540,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4369,7 +4555,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Equipment"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Equipment (複数)"
                 }
               ]
             },
@@ -4383,7 +4570,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4397,7 +4585,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -4411,7 +4600,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -4425,7 +4615,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4439,7 +4630,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4453,7 +4645,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4467,7 +4660,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4481,7 +4675,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -4495,7 +4690,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4509,7 +4705,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4523,7 +4720,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -4537,7 +4735,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4551,7 +4750,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4565,7 +4765,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:prefectureCode"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:prefectureCode (複数)"
                 }
               ]
             },
@@ -4579,7 +4780,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:standardAreaCode"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:standardAreaCode (複数)"
                 }
               ]
             },
@@ -4593,7 +4795,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4607,7 +4810,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:uri"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:uri (複数)"
                 }
               ]
             },
@@ -4621,7 +4825,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4635,7 +4840,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Accessibility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Accessibility (複数)"
                 }
               ]
             },
@@ -4649,14 +4855,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:ChildcareInformation"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ChildcareInformation (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Facility",
+          "title": "pd:Facility (5)",
           "type": "object",
           "required": [
             "id",
@@ -4713,7 +4920,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4727,7 +4935,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Facility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Facility (複数)"
                 }
               ]
             },
@@ -4741,7 +4950,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4755,7 +4965,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4769,7 +4980,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Equipment"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Equipment (複数)"
                 }
               ]
             },
@@ -4783,7 +4995,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4797,7 +5010,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -4811,7 +5025,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -4825,7 +5040,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4839,7 +5055,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4853,7 +5070,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4867,7 +5085,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4881,7 +5100,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -4895,7 +5115,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4909,7 +5130,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4923,7 +5145,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -4937,7 +5160,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4951,7 +5175,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -4965,7 +5190,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:prefectureCode"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:prefectureCode (複数)"
                 }
               ]
             },
@@ -4979,7 +5205,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:standardAreaCode"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:standardAreaCode (複数)"
                 }
               ]
             },
@@ -4993,7 +5220,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5007,7 +5235,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:uri"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:uri (複数)"
                 }
               ]
             },
@@ -5021,7 +5250,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5035,7 +5265,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Accessibility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Accessibility (複数)"
                 }
               ]
             },
@@ -5049,14 +5280,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:ChildcareInformation"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ChildcareInformation (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Facility",
+          "title": "pd:Facility (6)",
           "type": "object",
           "required": [
             "id",
@@ -5113,7 +5345,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5127,7 +5360,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Facility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Facility (複数)"
                 }
               ]
             },
@@ -5141,7 +5375,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5155,7 +5390,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5169,7 +5405,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Equipment"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Equipment (複数)"
                 }
               ]
             },
@@ -5183,7 +5420,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5197,7 +5435,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -5211,7 +5450,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -5225,7 +5465,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5239,7 +5480,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5253,7 +5495,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5267,7 +5510,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5281,7 +5525,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -5295,7 +5540,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5309,7 +5555,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5323,7 +5570,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -5337,7 +5585,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5351,7 +5600,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5365,7 +5615,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:prefectureCode"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:prefectureCode (複数)"
                 }
               ]
             },
@@ -5379,7 +5630,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:standardAreaCode"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:standardAreaCode (複数)"
                 }
               ]
             },
@@ -5393,7 +5645,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5407,7 +5660,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:uri"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:uri (複数)"
                 }
               ]
             },
@@ -5421,7 +5675,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5435,7 +5690,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Accessibility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Accessibility (複数)"
                 }
               ]
             },
@@ -5449,14 +5705,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:ChildcareInformation"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ChildcareInformation (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Facility",
+          "title": "pd:Facility (7)",
           "type": "object",
           "required": [
             "id",
@@ -5513,7 +5770,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5527,7 +5785,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Facility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Facility (複数)"
                 }
               ]
             },
@@ -5541,7 +5800,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5555,7 +5815,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5569,7 +5830,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Equipment"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Equipment (複数)"
                 }
               ]
             },
@@ -5583,7 +5845,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5597,7 +5860,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -5611,7 +5875,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:time"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:time (複数)"
                 }
               ]
             },
@@ -5625,7 +5890,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5639,7 +5905,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5653,7 +5920,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5667,7 +5935,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5681,7 +5950,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -5695,7 +5965,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5709,7 +5980,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5723,7 +5995,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -5737,7 +6010,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5751,7 +6025,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5765,7 +6040,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:prefectureCode"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:prefectureCode (複数)"
                 }
               ]
             },
@@ -5779,7 +6055,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:standardAreaCode"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:standardAreaCode (複数)"
                 }
               ]
             },
@@ -5793,7 +6070,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5807,7 +6085,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:uri"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:uri (複数)"
                 }
               ]
             },
@@ -5821,7 +6100,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -5835,7 +6115,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Accessibility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Accessibility (複数)"
                 }
               ]
             },
@@ -5849,13 +6130,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:ChildcareInformation"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ChildcareInformation (複数)"
                 }
               ]
             }
           }
         }
-      ]
+      ],
+      "description": "このデータモデルには制約パターン(Mandatory Pattern, MP) の組み合わせに応じた  7 のバリエーションが整備されています"
     },
     "pcd:StatusCodeList": {
       "type": "string",
@@ -5975,7 +6258,7 @@
     "pd:Building": {
       "anyOf": [
         {
-          "title": "pd:Building",
+          "title": "pd:Building (1)",
           "type": "object",
           "required": [
             "description",
@@ -6014,7 +6297,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP01"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP01 (複数)"
                 }
               ]
             },
@@ -6028,7 +6312,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP02"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP02 (複数)"
                 }
               ]
             },
@@ -6042,7 +6327,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP03"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP03 (複数)"
                 }
               ]
             },
@@ -6056,7 +6342,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP04"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP04 (複数)"
                 }
               ]
             },
@@ -6070,7 +6357,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP05"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP05 (複数)"
                 }
               ]
             },
@@ -6084,7 +6372,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP06"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP06 (複数)"
                 }
               ]
             },
@@ -6098,7 +6387,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP07"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP07 (複数)"
                 }
               ]
             },
@@ -6115,7 +6405,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -6129,7 +6420,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Building"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Building (複数)"
                 }
               ]
             },
@@ -6143,7 +6435,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -6157,7 +6450,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Equipment"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Equipment (複数)"
                 }
               ]
             },
@@ -6171,7 +6465,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Land"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Land (複数)"
                 }
               ]
             },
@@ -6185,7 +6480,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -6199,7 +6495,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -6213,7 +6510,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6227,7 +6525,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6241,7 +6540,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6255,7 +6555,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6269,7 +6570,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6283,7 +6585,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -6297,7 +6600,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:date"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:date (複数)"
                 }
               ]
             },
@@ -6311,7 +6615,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:ContactPoint"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ContactPoint (複数)"
                 }
               ]
             },
@@ -6325,14 +6630,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:Accessibility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Accessibility (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Building",
+          "title": "pd:Building (2)",
           "type": "object",
           "required": [
             "description",
@@ -6371,7 +6677,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP01"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP01 (複数)"
                 }
               ]
             },
@@ -6385,7 +6692,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP02"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP02 (複数)"
                 }
               ]
             },
@@ -6399,7 +6707,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP03"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP03 (複数)"
                 }
               ]
             },
@@ -6413,7 +6722,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP04"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP04 (複数)"
                 }
               ]
             },
@@ -6427,7 +6737,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP05"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP05 (複数)"
                 }
               ]
             },
@@ -6441,7 +6752,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP06"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP06 (複数)"
                 }
               ]
             },
@@ -6455,7 +6767,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP07"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP07 (複数)"
                 }
               ]
             },
@@ -6472,7 +6785,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -6486,7 +6800,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Building"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Building (複数)"
                 }
               ]
             },
@@ -6500,7 +6815,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -6514,7 +6830,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Equipment"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Equipment (複数)"
                 }
               ]
             },
@@ -6528,7 +6845,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Land"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Land (複数)"
                 }
               ]
             },
@@ -6542,7 +6860,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -6556,7 +6875,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -6570,7 +6890,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6584,7 +6905,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6598,7 +6920,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6612,7 +6935,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6626,7 +6950,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6640,7 +6965,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -6654,7 +6980,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:date"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:date (複数)"
                 }
               ]
             },
@@ -6668,7 +6995,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:ContactPoint"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ContactPoint (複数)"
                 }
               ]
             },
@@ -6682,14 +7010,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:Accessibility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Accessibility (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Building",
+          "title": "pd:Building (3)",
           "type": "object",
           "required": [
             "description",
@@ -6728,7 +7057,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP01"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP01 (複数)"
                 }
               ]
             },
@@ -6742,7 +7072,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP02"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP02 (複数)"
                 }
               ]
             },
@@ -6756,7 +7087,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP03"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP03 (複数)"
                 }
               ]
             },
@@ -6770,7 +7102,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP04"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP04 (複数)"
                 }
               ]
             },
@@ -6784,7 +7117,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP05"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP05 (複数)"
                 }
               ]
             },
@@ -6798,7 +7132,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP06"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP06 (複数)"
                 }
               ]
             },
@@ -6812,7 +7147,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP07"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP07 (複数)"
                 }
               ]
             },
@@ -6829,7 +7165,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -6843,7 +7180,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Building"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Building (複数)"
                 }
               ]
             },
@@ -6857,7 +7195,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -6871,7 +7210,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Equipment"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Equipment (複数)"
                 }
               ]
             },
@@ -6885,7 +7225,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Land"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Land (複数)"
                 }
               ]
             },
@@ -6899,7 +7240,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -6913,7 +7255,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -6927,7 +7270,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6941,7 +7285,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6955,7 +7300,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6969,7 +7315,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6983,7 +7330,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -6997,7 +7345,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -7011,7 +7360,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:date"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:date (複数)"
                 }
               ]
             },
@@ -7025,7 +7375,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:ContactPoint"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ContactPoint (複数)"
                 }
               ]
             },
@@ -7039,14 +7390,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:Accessibility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Accessibility (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Building",
+          "title": "pd:Building (4)",
           "type": "object",
           "required": [
             "description",
@@ -7085,7 +7437,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP01"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP01 (複数)"
                 }
               ]
             },
@@ -7099,7 +7452,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP02"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP02 (複数)"
                 }
               ]
             },
@@ -7113,7 +7467,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP03"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP03 (複数)"
                 }
               ]
             },
@@ -7127,7 +7482,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP04"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP04 (複数)"
                 }
               ]
             },
@@ -7141,7 +7497,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP05"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP05 (複数)"
                 }
               ]
             },
@@ -7155,7 +7512,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP06"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP06 (複数)"
                 }
               ]
             },
@@ -7169,7 +7527,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP07"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP07 (複数)"
                 }
               ]
             },
@@ -7186,7 +7545,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -7200,7 +7560,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Building"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Building (複数)"
                 }
               ]
             },
@@ -7214,7 +7575,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -7228,7 +7590,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Equipment"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Equipment (複数)"
                 }
               ]
             },
@@ -7242,7 +7605,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Land"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Land (複数)"
                 }
               ]
             },
@@ -7256,7 +7620,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -7270,7 +7635,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -7284,7 +7650,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -7298,7 +7665,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -7312,7 +7680,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -7326,7 +7695,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -7340,7 +7710,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -7354,7 +7725,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -7368,7 +7740,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:date"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:date (複数)"
                 }
               ]
             },
@@ -7382,7 +7755,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:ContactPoint"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ContactPoint (複数)"
                 }
               ]
             },
@@ -7396,14 +7770,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:Accessibility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Accessibility (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Building",
+          "title": "pd:Building (5)",
           "type": "object",
           "required": [
             "description",
@@ -7442,7 +7817,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP01"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP01 (複数)"
                 }
               ]
             },
@@ -7456,7 +7832,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP02"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP02 (複数)"
                 }
               ]
             },
@@ -7470,7 +7847,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP03"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP03 (複数)"
                 }
               ]
             },
@@ -7484,7 +7862,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP04"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP04 (複数)"
                 }
               ]
             },
@@ -7498,7 +7877,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP05"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP05 (複数)"
                 }
               ]
             },
@@ -7512,7 +7892,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP06"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP06 (複数)"
                 }
               ]
             },
@@ -7526,7 +7907,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP07"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP07 (複数)"
                 }
               ]
             },
@@ -7543,7 +7925,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -7557,7 +7940,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Building"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Building (複数)"
                 }
               ]
             },
@@ -7571,7 +7955,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -7585,7 +7970,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Equipment"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Equipment (複数)"
                 }
               ]
             },
@@ -7599,7 +7985,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Land"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Land (複数)"
                 }
               ]
             },
@@ -7613,7 +8000,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -7627,7 +8015,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -7641,7 +8030,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -7655,7 +8045,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -7669,7 +8060,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -7683,7 +8075,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -7697,7 +8090,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -7711,7 +8105,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -7725,7 +8120,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:date"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:date (複数)"
                 }
               ]
             },
@@ -7739,7 +8135,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:ContactPoint"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ContactPoint (複数)"
                 }
               ]
             },
@@ -7753,14 +8150,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:Accessibility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Accessibility (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Building",
+          "title": "pd:Building (6)",
           "type": "object",
           "required": [
             "description",
@@ -7799,7 +8197,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP01"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP01 (複数)"
                 }
               ]
             },
@@ -7813,7 +8212,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP02"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP02 (複数)"
                 }
               ]
             },
@@ -7827,7 +8227,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP03"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP03 (複数)"
                 }
               ]
             },
@@ -7841,7 +8242,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP04"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP04 (複数)"
                 }
               ]
             },
@@ -7855,7 +8257,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP05"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP05 (複数)"
                 }
               ]
             },
@@ -7869,7 +8272,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP06"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP06 (複数)"
                 }
               ]
             },
@@ -7883,7 +8287,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP07"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP07 (複数)"
                 }
               ]
             },
@@ -7900,7 +8305,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -7914,7 +8320,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Building"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Building (複数)"
                 }
               ]
             },
@@ -7928,7 +8335,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -7942,7 +8350,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Equipment"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Equipment (複数)"
                 }
               ]
             },
@@ -7956,7 +8365,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Land"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Land (複数)"
                 }
               ]
             },
@@ -7970,7 +8380,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -7984,7 +8395,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -7998,7 +8410,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -8012,7 +8425,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -8026,7 +8440,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -8040,7 +8455,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -8054,7 +8470,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -8068,7 +8485,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -8082,7 +8500,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:date"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:date (複数)"
                 }
               ]
             },
@@ -8096,7 +8515,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:ContactPoint"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ContactPoint (複数)"
                 }
               ]
             },
@@ -8110,14 +8530,15 @@
                   "items": {
                     "$ref": "#/definitions/pd:Accessibility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Accessibility (複数)"
                 }
               ]
             }
           }
         },
         {
-          "title": "pd:Building",
+          "title": "pd:Building (7)",
           "type": "object",
           "required": [
             "description",
@@ -8156,7 +8577,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP01"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP01 (複数)"
                 }
               ]
             },
@@ -8170,7 +8592,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP02"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP02 (複数)"
                 }
               ]
             },
@@ -8184,7 +8607,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP03"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP03 (複数)"
                 }
               ]
             },
@@ -8198,7 +8622,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP04"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP04 (複数)"
                 }
               ]
             },
@@ -8212,7 +8637,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP05"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP05 (複数)"
                 }
               ]
             },
@@ -8226,7 +8652,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP06"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP06 (複数)"
                 }
               ]
             },
@@ -8240,7 +8667,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Address_MP07"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Address_MP07 (複数)"
                 }
               ]
             },
@@ -8257,7 +8685,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -8271,7 +8700,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Building"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Building (複数)"
                 }
               ]
             },
@@ -8285,7 +8715,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -8299,7 +8730,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Equipment"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Equipment (複数)"
                 }
               ]
             },
@@ -8313,7 +8745,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:Land"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Land (複数)"
                 }
               ]
             },
@@ -8327,7 +8760,8 @@
                   "items": {
                     "type": "string"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "string (複数)"
                 }
               ]
             },
@@ -8341,7 +8775,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -8355,7 +8790,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -8369,7 +8805,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -8383,7 +8820,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -8397,7 +8835,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -8411,7 +8850,8 @@
                   "items": {
                     "type": "number"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "number (複数)"
                 }
               ]
             },
@@ -8425,7 +8865,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -8439,7 +8880,8 @@
                   "items": {
                     "$ref": "#/definitions/ex:date"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "ex:date (複数)"
                 }
               ]
             },
@@ -8453,7 +8895,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:ContactPoint"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:ContactPoint (複数)"
                 }
               ]
             },
@@ -8467,18 +8910,20 @@
                   "items": {
                     "$ref": "#/definitions/pd:Accessibility"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:Accessibility (複数)"
                 }
               ]
             }
           }
         }
-      ]
+      ],
+      "description": "このデータモデルには制約パターン(Mandatory Pattern, MP) の組み合わせに応じた  7 のバリエーションが整備されています"
     },
     "pd:Land": {
       "anyOf": [
         {
-          "title": "pd:Land",
+          "title": "pd:Land (1)",
           "type": "object",
           "required": [
             "usage",
@@ -8500,7 +8945,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -8540,7 +8986,7 @@
           }
         },
         {
-          "title": "pd:Land",
+          "title": "pd:Land (2)",
           "type": "object",
           "required": [
             "usage",
@@ -8562,7 +9008,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -8602,7 +9049,7 @@
           }
         },
         {
-          "title": "pd:Land",
+          "title": "pd:Land (3)",
           "type": "object",
           "required": [
             "usage",
@@ -8624,7 +9071,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -8664,7 +9112,7 @@
           }
         },
         {
-          "title": "pd:Land",
+          "title": "pd:Land (4)",
           "type": "object",
           "required": [
             "usage",
@@ -8686,7 +9134,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -8726,7 +9175,7 @@
           }
         },
         {
-          "title": "pd:Land",
+          "title": "pd:Land (5)",
           "type": "object",
           "required": [
             "usage",
@@ -8748,7 +9197,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -8788,7 +9238,7 @@
           }
         },
         {
-          "title": "pd:Land",
+          "title": "pd:Land (6)",
           "type": "object",
           "required": [
             "usage",
@@ -8810,7 +9260,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -8850,7 +9301,7 @@
           }
         },
         {
-          "title": "pd:Land",
+          "title": "pd:Land (7)",
           "type": "object",
           "required": [
             "usage",
@@ -8872,7 +9323,8 @@
                   "items": {
                     "$ref": "#/definitions/pd:CodeInformationModel"
                   },
-                  "minItems": 1
+                  "minItems": 1,
+                  "title": "pd:CodeInformationModel (複数)"
                 }
               ]
             },
@@ -8911,7 +9363,8 @@
             }
           }
         }
-      ]
+      ],
+      "description": "このデータモデルには制約パターン(Mandatory Pattern, MP) の組み合わせに応じた  7 のバリエーションが整備されています"
     },
     "pd:IdInformationModel": {
       "title": "pd:IdInformationModel",
@@ -8935,5 +9388,7 @@
       "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
     }
   },
-  "$ref": "#/definitions/pd:Equipment"
+  "$ref": "#/definitions/pd:Equipment",
+  "$id": "Equipment.schema.json",
+  "title": "データモデル Equipment"
 }

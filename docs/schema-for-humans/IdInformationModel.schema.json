@@ -22,5 +22,7 @@
       "pattern": "^[ -~]*$"
     }
   },
-  "$ref": "#/definitions/pd:IdInformationModel"
+  "$ref": "#/definitions/pd:IdInformationModel",
+  "$id": "IdInformationModel.schema.json",
+  "title": "データモデル IdInformationModel"
 }

@@ -1181,5 +1181,8 @@
     {
       "$ref": "#/definitions/pd:Address_MP07"
     }
-  ]
+  ],
+  "$id": "Address.schema.json",
+  "title": "データモデル Address",
+  "description": "このデータモデルには制約パターン(Mandatory Pattern, MP) に応じた  7 のバリエーションが整備されています"
 }
