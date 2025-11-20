@@ -14,17 +14,21 @@
 
 ### JSON Schema
 
-<https://github.com/indigo-lab/gif-json-schema/tree/main/docs/schema> に配備されている JSON Schema は
-`https://indigo-lab.github.io/gif-json-schema/schema/*.schema.json` のような URL でアクセス可能です。
+レポジトリで管理されている JSON Schema は以下のような URL でアクセス可能です。
 
-たとえば [Accesibility.schema.json](https://github.com/indigo-lab/gif-json-schema/blob/main/docs/schema/Accessibility.schema.json) は <https://indigo-lab.github.io/gif-json-schema/schema/Accessibility.schema.json> でアクセス可能です。
+- `https://indigo-lab.github.io/gif-json-schema/schema/*.schema.json`
+- `https://indigo-lab.github.io/gif-json-schema/schema-for-humans/*.schema.json`
 
-JSON Schema を
+たとえば [Accesibility.schema.json](https://github.com/indigo-lab/gif-json-schema/blob/main/docs/schema/Accessibility.schema.json) とそのバリエーションは以下のような URL でアクセスできます。
+
+- <https://indigo-lab.github.io/gif-json-schema/schema/Accessibility.schema.json>
+- <https://indigo-lab.github.io/gif-json-schema/schema/Accessibility.semantic.schema.json>
+- <https://indigo-lab.github.io/gif-json-schema/schema-for-humans/Accessibility.schema.json>
 
 ### HTML (experimental)
 
-<https://github.com/indigo-lab/gif-json-schema/tree/main/docs/schema-for-humans> に配備されている
-JSON Schema 群を [json-schema-for-humans](https://github.com/coveooss/json-schema-for-humans) で処理した HTML ファイルを提供しています。JSON Schema の内容を HTML ビューで確認することができます。
+[schema-for-humans](https://github.com/indigo-lab/gif-json-schema/tree/main/docs/schema-for-humans) に配備されている JSON Schema 群を [json-schema-for-humans](https://github.com/coveooss/json-schema-for-humans) で処理した HTML ファイルを提供しています。
+JSON Schema の内容を HTML ビューで確認することができます。
 
 **※ 実験的です。一部のファイルはサイズが大きいためご注意ください。**
 
