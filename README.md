@@ -52,8 +52,14 @@ GIF に関わる JSON Schama 群が収録されています。
 
 `docs/schema-for-humans/` のスキーマ群を `json-schema-for-humans` で処理して生成された HTML 群です。
 
+## GitHub Pages
+
+docs 配下の情報は GitHub Pages を通じてアクセス可能です。エントリポイントはこちらです。
+
+- <https://indigo-lab.github.io/gif-json-schema/>
+
 ## License
 
 本レポジトリのうち、 `docs/schema` のスキーマ群は IPA（情報処理推進機構）により MIT ライセンスで公開されている [GIF コンポーネントツール](https://imi.go.jp/goi/gif) の一部をコピーしたものです。
 
-それ以外のリソースは indigo-lab によって MIT ライセンスにて公開します。
+それ以外のリソースは [indigo-lab](https://github.com/indigo-lab) によって MIT ライセンスにて公開します。
