@@ -1,9 +1,15 @@
 # gif-json-schema
 
-本リポジトリは、IPA（情報処理推進機構）により MIT ライセンスで公開されている [GIF コンポーネントツール](https://imi.go.jp/goi/gif) の一部、特に [政府相互運用性フレームワーク（GIF）](https://www.digital.go.jp/policies/data_strategy_government_interoperability_framework) に関する JSON スキーマを取り込み、
+本リポジトリは、IPA（情報処理推進機構）により MIT ライセンスで公開されている [GIF コンポーネントツール](https://imi.go.jp/goi/gif) の一部、特に [政府相互運用性フレームワーク（GIF）](https://www.digital.go.jp/policies/data_strategy_government_interoperability_framework) に関する JSON Schema を取り込み、
 同フレームワークの仕様をより使いやすくするための試行・検証を行うことを目的としています。
 
 これらの活動を通じて、GIF 仕様の理解促進および改善提案を行い、公式仕様へのフィードバックを目指します。
+
+## Notice
+
+- このレポジトリの想定利用者は GIF を活用してデータ交換や既存データやシステムの相互運用性向上を検討するアーキテクトやエンジニアです
+- GIF 仕様そのものについての問い合わせは [政府相互運用性フレームワーク (GIF)](https://github.com/JDA-DM/GIF) よりお願いします
+- JSON Schema は [GIF v2.0 2025-3-25](https://github.com/JDA-DM/GIF/releases/tag/v2.00) のコアデータモデルに対応しています
 
 ## Files
 
